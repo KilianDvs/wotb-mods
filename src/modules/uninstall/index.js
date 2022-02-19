@@ -3,9 +3,9 @@ import fs from 'fs-extra'
 
 export default async function runUninstallation(options) {
 
-  const pathToData = options.paths.dataTest
+  const pathToData = options.paths.data
   const pathToBackup = options.paths.backup
-  const pathToImages = options.paths.imagesTest
+  const pathToImages = options.paths.images
 
 
   if(!fs.readdirSync(pathToBackup).filter(f => !f.startsWith(".")).length && !fs.existsSync(`${pathToImages}/Backup`)) {

@@ -3,7 +3,7 @@ import inquirer from 'inquirer'
 
 export default async function installCrewMod(options, crewType) {
 
-  const pathToData = options.paths.dataTest
+  const pathToData = options.paths.data
   const pathToMods = options.paths.mods
   const pathToMod = `${pathToMods}/PC crew voices/Data`
   

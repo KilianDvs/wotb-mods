@@ -137,12 +137,12 @@ async function createPaths() {
   /** 
     * ! FOR TESTS ONLY
     */
-  const dataTest = "/Users/kilian/Desktop/TEST WOTB/Data"
-  const imagesTest = "/Users/kilian/Desktop/TEST WOTB/image_cache"
+  const data = "/Users/kilian/Desktop/TEST WOTB/Data"
+  const images = "/Users/kilian/Desktop/TEST WOTB/image_cache"
 
     return {
-      dataTest, /** Use "dataTest" for tests, "data" otherwise */
-      imagesTest, /** Use "imagesTest" for tests, "images" otherwise */
+      data, /** Use "data" for tests, "data" otherwise */
+      images, /** Use "images" for tests, "images" otherwise */
       backup,
       mods
     }

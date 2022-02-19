@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 
 export default async function installTechTreeMod(options) {
 
-  const pathToData = options.paths.dataTest
+  const pathToData = options.paths.data
   const pathToMods = options.paths.mods
   
 /** Taking care of Configs */

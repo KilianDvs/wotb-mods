@@ -5,7 +5,7 @@ import runUninstallation from '../../uninstall'
 
 export default async function avatarBackup(options) {
 
-  const pathToImages = options.paths.imagesTest
+  const pathToImages = options.paths.images
   const pathToBackup = options.paths.backup
 
   if(fs.readdirSync(pathToBackup).filter(f => !f.startsWith('.')).length) {

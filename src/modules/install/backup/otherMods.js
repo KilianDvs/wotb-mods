@@ -5,7 +5,7 @@ import inquirer from 'inquirer'
 
 export default async function otherModsBackup(options) {
 
-  const pathToData = options.paths.dataTest
+  const pathToData = options.paths.data
   const pathToBackup = options.paths.backup
 
 /** If a backup already exists, ask the user if they want to stop install or replace the existing mods */

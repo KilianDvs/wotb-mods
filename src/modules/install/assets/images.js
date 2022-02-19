@@ -4,7 +4,7 @@ import inquirer from 'inquirer'
 
 export default async function installImagesMod(options) {
 
-  const pathToImages = options.paths.imagesTest
+  const pathToImages = options.paths.images
   const pathToCustom = `${pathToImages}/Mods`
   const pathToBackup = `${pathToImages}/Backup`
   const questions = []

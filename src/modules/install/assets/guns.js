@@ -4,7 +4,7 @@ export default async function installGunsMod(options) {
 
   console.log(options)
 
-  const pathToData = options.paths.dataTest
+  const pathToData = options.paths.data
   const pathToMods = options.paths.mods
   const pathToMod = `${pathToMods}/PC gun sounds/Data`
 
