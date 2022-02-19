@@ -9,7 +9,6 @@ import installImagesMod from "./assets/images"
 export default async function runInstallation(options) {
 
 /** Preparing the backups */
-
 /** Images */
   if(options.mods.includes('avatar')) {
     await avatarBackup(options)
@@ -38,4 +37,7 @@ export default async function runInstallation(options) {
 
 /** Images */
     if(options.mods.includes('avatar') || options.mods.includes('profilebg')) await installImagesMod(options)
+
+    console.log("Mods installed with success!")
+
 }
