@@ -134,15 +134,9 @@ async function createPaths() {
   const backup = path.resolve(__dirname, "../Backup")
   const mods = path.resolve(__dirname, "../Mods")
 
-  /** 
-    * ! FOR TESTS ONLY
-    */
-  const data = "/Users/kilian/Desktop/TEST WOTB/Data"
-  const images = "/Users/kilian/Desktop/TEST WOTB/image_cache"
-
     return {
-      data, /** Use "data" for tests, "data" otherwise */
-      images, /** Use "images" for tests, "images" otherwise */
+      data,
+      images,
       backup,
       mods
     }
