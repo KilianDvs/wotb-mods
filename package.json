@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/KilianDvs/wotb-mods-installer/issues"
   },
-  "homepage": "https://github.com/KilianDvs/wotb-mods-installer#readme"
+  "homepage": "https://github.com/KilianDvs/wotb-mods-installer#readme",
+  "esm": {
+    "cache": false
+  }
 }
