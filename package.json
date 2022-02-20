@@ -26,7 +26,6 @@
     "indent-string": "^5.0.0",
     "inquirer": "^8.2.0"
   },
-  "description": "## Motivation",
   "devDependencies": {},
   "repository": {
     "type": "git",
