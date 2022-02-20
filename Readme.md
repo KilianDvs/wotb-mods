@@ -35,7 +35,7 @@ You can do that by pasting the following in your terminal :
 
 ## Installation
 
-Nothing simpler! either run ``npm install -g wotb-mods-installer`` or clone this repository.
+Nothing simpler! either run ``npm install -g wotb-mods`` or clone this repository.
 
 ## How to use it
 

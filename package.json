@@ -1,5 +1,5 @@
 {
-  "name": "@kiliandvs/wotb-mods-installer",
+  "name": "@kiliandvs/wotb-mods",
   "version": "8.8.0",
   "desctription": "A CLI to install mods (including backups) for World of Tanks Blitz",
   "main": "src/index.js",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "cli",
-    "wotb-mods-installer"
+    "wotb-mods"
   ],
   "author": "Kilian Davies",
   "license": "ISC",
@@ -29,12 +29,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KilianDvs/wotb-mods-installer.git"
+    "url": "git+https://github.com/KilianDvs/wotb-mods.git"
   },
   "bugs": {
-    "url": "https://github.com/KilianDvs/wotb-mods-installer/issues"
+    "url": "https://github.com/KilianDvs/wotb-mods/issues"
   },
-  "homepage": "https://github.com/KilianDvs/wotb-mods-installer#readme",
+  "homepage": "https://github.com/KilianDvs/wotb-mods#readme",
   "esm": {
     "cache": false
   }
