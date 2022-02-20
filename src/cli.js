@@ -187,7 +187,6 @@ export async function cli(args) {
   await handleUnknownFlags(options)
   await handleHelpAndVersion(options)
   options = await promptForMissingOptions(options)
-  //console.log(options)
 
   try {
     if(options.runInstall) {
