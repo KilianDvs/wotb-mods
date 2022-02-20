@@ -5,6 +5,7 @@ import installCrewMod from "./assets/crew"
 import installGunsMod from "./assets/guns"
 import installTechTreeMod from "./assets/techtree"
 import installImagesMod from "./assets/images"
+import chalk from "chalk"
 
 export default async function runInstallation(options) {
 
@@ -38,6 +39,6 @@ export default async function runInstallation(options) {
 /** Images */
     if(options.mods.includes('avatar') || options.mods.includes('profilebg')) await installImagesMod(options)
 
-    console.log("Mods installed with success!")
+    console.log(chalk.green("Mods installed with success!"))
 
 }

@@ -56,7 +56,9 @@ export default async function runUninstallation(options) {
         console.log(err)
       }
     }
-
+    finally {
+      console.log(chalk.green("Mods successfully uninstalled!"))
+    }
 
   }
 

@@ -20,7 +20,7 @@ export default async function installImagesMod(options) {
     if(fs.existsSync(`${pathToCustom}/Avatar`))
       customAvatarPath = pathToCustom + "/Avatar/" + fs.readdirSync(`${pathToCustom}/Avatar`).filter(f => !f.startsWith('.'))[0]
 
-    if(customAvatarPath) {
+    if(fs.existsSync(customAvatarPath)) {
       fs.copySync(customAvatarPath, `${pathToImages}/${backupAvatarName}`)
     }
     else {
@@ -39,12 +39,12 @@ export default async function installImagesMod(options) {
     let backupBackgroundName, customBackgroundPath
 
     if(fs.existsSync(`${pathToBackup}/Background`))
-    backupBackgroundName = fs.readdirSync(`${pathToBackup}/Background`).filter(f => !f.startsWith('.'))[0]
+      backupBackgroundName = fs.readdirSync(`${pathToBackup}/Background`).filter(f => !f.startsWith('.'))[0]
     
     if(fs.existsSync(`${pathToCustom}/Background`))
       customBackgroundPath = pathToCustom + "/Background/" + fs.readdirSync(`${pathToCustom}/Background`).filter(f => !f.startsWith('.'))[0]
       
-    if(customBackgroundPath) {
+    if(fs.existsSync(customBackgroundPath)) {
       fs.copySync(customBackgroundPath, `${pathToImages}/${backupBackgroundName}`)
     }
     else {
