@@ -68,10 +68,6 @@
       <points>
         <normal>0.000000 -0.000008 0.000104</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.042256</cylinderPos>
-        <cylinderXYScale>0.633801</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/other/Van_Helsing/normal/lod0/Hull.model</undamaged>
@@ -180,7 +176,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-1.230774</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -278,11 +273,6 @@
         <points>
           <normal>-0.001963 0.458245 -1.626150</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.626150</clippingPlaneZPos>
-          <textureScaleFactor>0.591547</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#other_vehicles:Hellsing_type1</userString>
       <shortUserString>#other_vehicles:Hellsing_type1_short</shortUserString>

@@ -71,10 +71,6 @@
       <points>
         <normal>-0.000001 0.000048 -1.082363</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 1.035000</cylinderPos>
-        <cylinderXYScale>1.120000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/american/A13_T34_hvy_Freedom/normal/lod0/Hull.model</undamaged>
@@ -163,7 +159,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.755000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -299,11 +294,6 @@
         <points>
           <normal>0.000028 -0.610141 -1.648949</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.669000</clippingPlaneZPos>
-          <textureScaleFactor>0.700000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:T34T7</userString>
       <description>#usa_vehicles:T34T7_descr</description>

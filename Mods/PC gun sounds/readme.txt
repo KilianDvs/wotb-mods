@@ -1,8 +1,8 @@
 ----------------------------------
-Version: V 6.1_8.8
+Version: V 6.1_8.9
 Main Mod Version: V 6.1
-XML Version (Correspond to the Game Version): 8.8.x 
-Version time: 1:10 AM UTC+11, 17/FEB/2022
+XML Version (Correspond to the Game Version): 8.9.x 
+Version time: 12:50 AM UTC+11, 24/MAR/2022
 Discord Server: http://discord.gg/gt7PquG
 ------------readme-------------
 ** WARNING : PLEASE CHECK THE XML VERSION with the GAME VERSION YOU INSTALLED! **

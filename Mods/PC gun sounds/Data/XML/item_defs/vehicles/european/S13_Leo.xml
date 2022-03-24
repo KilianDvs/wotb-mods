@@ -73,10 +73,6 @@
       <points>
         <normal>-0.001058 -0.001336 -0.000489</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>-0.000003 -0.000003 -0.063383</cylinderPos>
-        <cylinderXYScale>1.021125</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -180,7 +176,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.870000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -276,7 +271,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.870000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -352,11 +346,6 @@
         <points>
           <normal>-0.000331 -0.239404 -1.425285</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.436322</clippingPlaneZPos>
-          <textureScaleFactor>0.612674</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_1_S13_Leo</userString>
       <description>#european_vehicles:Turret_1_S13_Leo_descr</description>
@@ -515,11 +504,6 @@
         <points>
           <normal>-0.000331 -0.241240 -1.425515</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.422036</clippingPlaneZPos>
-          <textureScaleFactor>0.591547</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_2_S13_Leo</userString>
       <description>#european_vehicles:Turret_2_S13_Leo_descr</description>

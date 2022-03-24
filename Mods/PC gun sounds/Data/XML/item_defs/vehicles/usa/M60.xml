@@ -69,10 +69,6 @@
       <points>
         <normal>-0.026624 -0.009128 -1.234978</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 -0.063000 1.225000</cylinderPos>
-        <cylinderXYScale>1.099000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/american/A92_M60/normal/lod0/Hull.model</undamaged>
@@ -168,7 +164,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.590000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -266,11 +261,6 @@
         <points>
           <normal>-0.002395 -0.559147 -1.734338</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.760000</clippingPlaneZPos>
-          <textureScaleFactor>0.655000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_1_M60</userString>
       <tags/>

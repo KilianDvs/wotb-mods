@@ -70,7 +70,6 @@
       <points>
         <normal>0.000000 -0.000000 0.000998</normal>
       </points>
-      <detachedTurret/>
     </blitz>
     <models>
       <undamaged>vehicles/german/G18_JagdPanther/normal/lod0/Hull.model</undamaged>
@@ -200,7 +199,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.75</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -319,7 +317,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.75</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -417,7 +414,6 @@
         <points>
           <normal>0.000000 0.000000 0.000000</normal>
         </points>
-        <clipParams/>
       </blitz>
       <userString>#germany_vehicles:JgPzPanther</userString>
       <description>#germany_vehicles:JgPzPanther_descr</description>

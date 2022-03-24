@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
-  <nextAvailableId>53</nextAvailableId>
+  <nextAvailableId>55</nextAvailableId>
   <ids>
     <Cannone_da_105_51_M68>1</Cannone_da_105_51_M68>
     <_105mm_Cannone_da_Rh_V1>2</_105mm_Cannone_da_Rh_V1>
@@ -53,6 +53,7 @@
     <_75mm_Skoda_A18BP>50</_75mm_Skoda_A18BP>
     <_130mm_Skoda_R_14>51</_130mm_Skoda_R_14>
     <_105mm_kan_m_34NY>52</_105mm_kan_m_34NY>
+    <_105mm_wz_52>53</_105mm_wz_52>
   </ids>
   <shared>
     <Cannone_da_105_51_M68>
@@ -2839,5 +2840,61 @@
         </_130mm_Narazovy_vz_51>
       </shots>
     </_130mm_Skoda_R_14>
+    <_105mm_wz_52>
+      <userString>#european_vehicles:_105mm_wz_52</userString>
+      <shortUserString>#european_vehicles:_105mm_wz_52_short</shortUserString>
+      <description>#european_vehicles:_105mm_wz_52_descr</description>
+      <tags/>
+      <level>8</level>
+      <price>0</price>
+      <impulse>0.48</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.24</amplitude>
+        <backoffTime>0.24</backoffTime>
+        <returnTime>0.24</returnTime>
+      </recoil>
+      <effects>shot_large</effects>
+      <turretYawLimits>-180 180</turretYawLimits>
+      <pitchLimits>-20 10</pitchLimits>
+      <rotationSpeed>33</rotationSpeed>
+      <reloadTime>8</reloadTime>
+      <maxAmmo>34</maxAmmo>
+      <aimingTime>2</aimingTime>
+      <weight>2250</weight>
+      <maxHealth>180</maxHealth>
+      <maxRegenHealth>90</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.4</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.16</turretRotation>
+        <afterShot>4.0</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_105mm_slpgr_m_52>
+          <defaultPortion>0.95</defaultPortion>
+          <speed>980</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>158 145</piercingPower>
+        </_105mm_slpgr_m_52>
+        <_105mm_slpprj_m_59>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>1569</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>197 164</piercingPower>
+        </_105mm_slpprj_m_59>
+        <_105mm_sgr_m_50_B>
+          <defaultPortion>0.05</defaultPortion>
+          <speed>822</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>53 53</piercingPower>
+        </_105mm_sgr_m_50_B>
+      </shots>
+    </_105mm_wz_52>
   </shared>
 </root>

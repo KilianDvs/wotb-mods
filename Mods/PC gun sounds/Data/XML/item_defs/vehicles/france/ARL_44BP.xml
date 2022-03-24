@@ -73,10 +73,6 @@
       <points>
         <normal>0.000000 -0.000032 -0.000361</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.063383</cylinderPos>
-        <cylinderXYScale>0.985913</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -182,7 +178,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.355000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -258,11 +253,6 @@
         <points>
           <normal>-0.000840 -0.131497 -1.912312</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.912312</clippingPlaneZPos>
-          <textureScaleFactor>0.633800</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#france_vehicles:Turret_1_ARL_44BP</userString>
       <description>#france_vehicles:Turret_1_ARL_44BP_descr</description>

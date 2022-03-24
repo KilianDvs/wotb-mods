@@ -73,11 +73,6 @@
       <points>
         <normal>0.000069 -0.000706 -0.000584</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 -0.110000 -0.049000</cylinderPos>
-        <cylinderXYScale>1.068000</cylinderXYScale>
-        <cylinderZScale>1.000000</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -178,7 +173,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.1</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -254,11 +248,6 @@
         <points>
           <normal>0.001678 -0.274452 -1.363704</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.384633</clippingPlaneZPos>
-          <textureScaleFactor>0.574925</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_1_S26_Lansen_C</userString>
       <description>#european_vehicles:Turret_1_S26_Lansen_C_descr</description>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
-  <nextAvailableId>1040</nextAvailableId>
+  <nextAvailableId>1041</nextAvailableId>
   <ids>
     <_75mm_Gun_M3_L37>0</_75mm_Gun_M3_L37>
     <_20mm_Hispano_Suiza_Birgikt_gun>1</_20mm_Hispano_Suiza_Birgikt_gun>
@@ -99,7 +99,9 @@
     <_90mm_Gun_M3E1_BP>1034</_90mm_Gun_M3E1_BP>
     <_105mm_Gun_T140A>1035</_105mm_Gun_T140A>
     <_110mm_Gun_EXP_7>1036</_110mm_Gun_EXP_7>
+    <_105mm_Gun_T254A>1037</_105mm_Gun_T254A>
     <_105mm_Gun_T5E1M1>1038</_105mm_Gun_T5E1M1>
+    <_120mm_Gun_T179_M169>1040</_120mm_Gun_T179_M169>
   </ids>
   <shared>
     <_20mm_Hispano_Suiza_Birgikt_gun>
@@ -1703,14 +1705,14 @@
           <speed>1219</speed>
           <gravity>9.81</gravity>
           <maxDistance>720</maxDistance>
-          <piercingPower>155 125</piercingPower>
+          <piercingPower>160 130</piercingPower>
         </_76mm_APDS_M331A2>
         <_76mm_HEAT_M496>
           <defaultPortion>0.0</defaultPortion>
           <speed>975</speed>
           <gravity>9.81</gravity>
           <maxDistance>720</maxDistance>
-          <piercingPower>200 200</piercingPower>
+          <piercingPower>210 210</piercingPower>
         </_76mm_HEAT_M496>
         <_76mm_HE_M352>
           <defaultPortion>0.15</defaultPortion>
@@ -5282,5 +5284,115 @@
         </_110mm_SDRN1>
       </shots>
     </_110mm_Gun_EXP_7>
+    <_105mm_Gun_T254A>
+      <userString>#usa_vehicles:_105mm_Gun_T254A</userString>
+      <shortUserString>#usa_vehicles:_105mm_Gun_T254A_short</shortUserString>
+      <description>#usa_vehicles:_105mm_Gun_T254A_descr</description>
+      <tags/>
+      <level>8</level>
+      <price>0</price>
+      <impulse>0.48</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.16</amplitude>
+        <backoffTime>0.1</backoffTime>
+        <returnTime>0.24</returnTime>
+      </recoil>
+      <effects>shot_large</effects>
+      <pitchLimits>-20 10</pitchLimits>
+      <rotationSpeed>35.0</rotationSpeed>
+      <reloadTime>9.49</reloadTime>
+      <maxAmmo>46</maxAmmo>
+      <aimingTime>2.29</aimingTime>
+      <weight>2400</weight>
+      <maxHealth>180</maxHealth>
+      <maxRegenHealth>90</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.43</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.16</turretRotation>
+        <afterShot>4.0</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_105mm_AP_M392>
+          <defaultPortion>0.8</defaultPortion>
+          <speed>1000</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>225 198</piercingPower>
+        </_105mm_AP_M392>
+        <_105mm_HEAT_M456>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>1000</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>253 253</piercingPower>
+        </_105mm_HEAT_M456>
+        <_105mm_HESH_M393>
+          <defaultPortion>0.2</defaultPortion>
+          <speed>1000</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>50 50</piercingPower>
+        </_105mm_HESH_M393>
+      </shots>
+    </_105mm_Gun_T254A>
+    <_120mm_Gun_T179_M169>
+      <userString>#usa_vehicles:_120mm_Gun_T179_M169</userString>
+      <shortUserString>#usa_vehicles:_120mm_Gun_T179_M169_short</shortUserString>
+      <description>#usa_vehicles:_120mm_Gun_T179_M169_descr</description>
+      <tags/>
+      <level>8</level>
+      <price>0</price>
+      <impulse>0.68</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.24</amplitude>
+        <backoffTime>0.2</backoffTime>
+        <returnTime>0.6</returnTime>
+      </recoil>
+      <effects>shot_large</effects>
+      <pitchLimits>-15 11</pitchLimits>
+      <rotationSpeed>26.25</rotationSpeed>
+      <reloadTime>10.9</reloadTime>
+      <maxAmmo>22</maxAmmo>
+      <aimingTime>2.6</aimingTime>
+      <weight>4000</weight>
+      <maxHealth>210</maxHealth>
+      <maxRegenHealth>105</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.4</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.08</turretRotation>
+        <afterShot>4.0</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_120mm_APBC_M358>
+          <defaultPortion>0.60</defaultPortion>
+          <speed>1100</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>225 190</piercingPower>
+        </_120mm_APBC_M358>
+        <_120mm_HEAT_M830>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>950</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>255 255</piercingPower>
+        </_120mm_HEAT_M830>
+        <_120mm_HE_M356>
+          <defaultPortion>0.40</defaultPortion>
+          <speed>950</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>50 50</piercingPower>
+        </_120mm_HE_M356>
+      </shots>
+    </_120mm_Gun_T179_M169>
   </shared>
 </root>

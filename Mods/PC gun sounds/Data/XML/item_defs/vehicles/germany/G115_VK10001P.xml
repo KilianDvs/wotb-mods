@@ -72,10 +72,6 @@
       <points>
         <normal>0.000000 -0.007292 0.002788</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.063000</cylinderPos>
-        <cylinderXYScale>1.415000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -193,7 +189,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.500005</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -269,11 +264,6 @@
         <points>
           <normal>0.000000 0.075990 -1.848583</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.856000</clippingPlaneZPos>
-          <textureScaleFactor>0.613000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:Turret_1_G115_Typ_205B</userString>
       <description>#germany_vehicles:Turret_1_G115_Typ_205B_descr</description>

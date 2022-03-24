@@ -74,10 +74,6 @@
       <points>
         <normal>0.001093 -0.006566 -1.252081</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>-0.085000 -0.085000 1.225000</cylinderPos>
-        <cylinderXYScale>0.930000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -172,7 +168,6 @@
         <lodDist>MEDIUM_TRACK</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.884620</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -467,11 +462,6 @@
         <points>
           <normal>-0.009242 0.385770 -1.907349</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.950000</clippingPlaneZPos>
-          <textureScaleFactor>0.718000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:Turret_1_G106_PzKpfwPanther_AusfF</userString>
       <shortUserString>#germany_vehicles:Turret_1_G106_PzKpfwPanther_AusfF_short</shortUserString>

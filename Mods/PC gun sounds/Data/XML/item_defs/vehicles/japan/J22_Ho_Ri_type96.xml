@@ -72,7 +72,6 @@
       <points>
         <normal>0.001052 -0.000719 -0.000034</normal>
       </points>
-      <detachedTurret/>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -185,7 +184,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.775000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -281,7 +279,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.775000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -357,7 +354,6 @@
         <points>
           <normal>0.000000 0.000000 0.000000</normal>
         </points>
-        <clipParams/>
       </blitz>
       <userString>#japan_vehicles:Turret_Ho-Ri_type96</userString>
       <description>#japan_vehicles:Turret_Ho-Ri_type96_descr</description>

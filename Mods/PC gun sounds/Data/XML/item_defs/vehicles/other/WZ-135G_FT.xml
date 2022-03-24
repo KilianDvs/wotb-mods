@@ -68,7 +68,6 @@
       <points>
         <normal>0.000000 -0.000008 0.000104</normal>
       </points>
-      <detachedTurret/>
     </blitz>
     <models>
       <undamaged>vehicles/other/WZ-135G_FT/normal/lod0/Hull.model</undamaged>
@@ -172,7 +171,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.835000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -270,7 +268,6 @@
         <points>
           <normal>-0.005428 1.244904 -1.464008</normal>
         </points>
-        <clipParams/>
       </blitz>
       <userString>#other_vehicles:Turret_WZ-135G FT</userString>
       <shortUserString>#germany_vehicles:PzIV_ausf_F_short</shortUserString>

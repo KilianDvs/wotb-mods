@@ -73,11 +73,6 @@
       <points>
         <normal>0.001115 0.000896 0.000649</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.056118</cylinderPos>
-        <cylinderXYScale>1.157042</cylinderXYScale>
-        <cylinderZScale>1.000000</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -184,7 +179,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.1</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -280,7 +274,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.1</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -356,11 +349,6 @@
         <points>
           <normal>0.000542 0.197410 -1.629603</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.634000</clippingPlaneZPos>
-          <textureScaleFactor>0.603000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_1_Pl05_50TP_Tyszkiewicza</userString>
       <description>#european_vehicles:Turret_1_Pl05_50TP_Tyszkiewicza_descr</description>
@@ -515,11 +503,6 @@
         <points>
           <normal>-0.000255 0.197490 -1.629301</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.634000</clippingPlaneZPos>
-          <textureScaleFactor>0.586000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_2_Pl05_50TP_Tyszkiewicza</userString>
       <description>#european_vehicles:Turret_2_Pl05_50TP_Tyszkiewicza_descr</description>

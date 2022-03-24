@@ -70,10 +70,6 @@
       <points>
         <normal>-0.001078 0.000000 -0.903161</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.085000 0.824000</cylinderPos>
-        <cylinderXYScale>1.077000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/german/G58_VK4502P/normal/lod0/Hull.model</undamaged>
@@ -172,7 +168,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.84</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -278,7 +273,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.84</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -362,11 +356,6 @@
         <points>
           <normal>0.011842 1.550771 -1.802436</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.877000</clippingPlaneZPos>
-          <textureScaleFactor>1.141000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:VK4502P_Standardturm</userString>
       <shortUserString>#germany_vehicles:VK4502P_Standardturm_short</shortUserString>
@@ -724,11 +713,6 @@
         <points>
           <normal>0.010441 1.551396 -1.804588</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.870000</clippingPlaneZPos>
-          <textureScaleFactor>0.908000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:VK4502P_Eliteturm</userString>
       <shortUserString>#germany_vehicles:VK4502P_Eliteturm_short</shortUserString>

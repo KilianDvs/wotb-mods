@@ -71,10 +71,6 @@
       <points>
         <normal>-0.000002 -0.001004 -0.900531</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 0.845000</cylinderPos>
-        <cylinderXYScale>1.056000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/german/G54_E-50/normal/lod0/Hull.model</undamaged>
@@ -177,7 +173,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.580000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -282,7 +277,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.580000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -367,11 +361,6 @@
         <points>
           <normal>-0.000003 0.139453 -1.879053</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.890000</clippingPlaneZPos>
-          <textureScaleFactor>0.845000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:Turret_1_E-50</userString>
       <description>#germany_vehicles:Turret_1_E-50_descr</description>
@@ -622,11 +611,6 @@
         <points>
           <normal>0.000000 0.139949 -1.875920</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.875000</clippingPlaneZPos>
-          <textureScaleFactor>0.803000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:Turret_2_E-50</userString>
       <description>#germany_vehicles:Turret_2_E-50_descr</description>

@@ -74,10 +74,6 @@
       <points>
         <normal>0.000329 -0.001559 0.000756</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>-0.000003 0.000000 -0.063383</cylinderPos>
-        <cylinderXYScale>1.021125</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -184,7 +180,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.635000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -280,7 +275,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.635000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -356,11 +350,6 @@
         <points>
           <normal>0.008850 -0.616178 -1.844846</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.857928</clippingPlaneZPos>
-          <textureScaleFactor>0.570420</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_1_Cz07_TVP_46</userString>
       <description>#european_vehicles:Turret_1_Cz07_TVP_46_descr</description>
@@ -524,11 +513,6 @@
         <points>
           <normal>0.008809 -0.615555 -1.844598</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.845870</clippingPlaneZPos>
-          <textureScaleFactor>0.570420</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_2_Cz07_TVP_46</userString>
       <description>#european_vehicles:Turret_2_Cz07_TVP_46_descr</description>

@@ -72,10 +72,6 @@
       <points>
         <normal>-0.000302 0.001394 0.000515</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.063383</cylinderPos>
-        <cylinderXYScale>1.056336</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -184,7 +180,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.677000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -280,7 +275,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.677000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -356,11 +350,6 @@
         <points>
           <normal>-0.000135 -0.589271 -1.438866</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.413272</clippingPlaneZPos>
-          <textureScaleFactor>0.549293</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_1_M-3-Y</userString>
       <description>#usa_vehicles:Turret_1_M-3-Y_descr</description>
@@ -632,11 +621,6 @@
         <points>
           <normal>-0.000075 -0.601623 -1.440090</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.440406</clippingPlaneZPos>
-          <textureScaleFactor>0.570420</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_2_M-3-Y</userString>
       <description>#usa_vehicles:Turret_2_M-3-Y_descr</description>

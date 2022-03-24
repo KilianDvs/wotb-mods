@@ -73,10 +73,6 @@
       <points>
         <normal>0.000000 0.001010 -0.031887</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 -0.010000 0.042000</cylinderPos>
-        <cylinderXYScale>0.697000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -176,7 +172,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.520000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -252,11 +247,6 @@
         <points>
           <normal>0.001637 0.872918 -1.915632</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.953000</clippingPlaneZPos>
-          <textureScaleFactor>0.845000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#other_vehicles:Turret_1_Oth21_Sega_Vulcan</userString>
       <description>#other_vehicles:Turret_1_Oth21_Sega_Vulcan_descr</description>

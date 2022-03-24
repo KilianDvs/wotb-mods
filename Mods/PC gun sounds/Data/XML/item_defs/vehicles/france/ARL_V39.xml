@@ -66,7 +66,6 @@
       <points>
         <normal>-0.000850 0.006353 -0.002943</normal>
       </points>
-      <detachedTurret/>
     </blitz>
     <models>
       <undamaged>vehicles/french/F34_ARL_V39/normal/lod0/Hull.model</undamaged>
@@ -202,7 +201,6 @@
         <lodDist>MEDIUM_TRACK</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.900000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -387,7 +385,6 @@
         <lodDist>MEDIUM_TRACK</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.900000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -552,7 +549,6 @@
         <points>
           <normal>-0.153328 -1.857853 -1.329792</normal>
         </points>
-        <clipParams/>
       </blitz>
       <userString>#france_vehicles:Turret_1_ARL_V39</userString>
       <description>#france_vehicles:Turret_1_ARL_V39_descr</description>

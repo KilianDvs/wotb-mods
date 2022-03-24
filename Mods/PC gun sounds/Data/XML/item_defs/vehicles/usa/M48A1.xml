@@ -68,10 +68,6 @@
       <points>
         <normal>-0.016346 -0.000000 -1.088652</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.042000 1.035000</cylinderPos>
-        <cylinderXYScale>1.204000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/american/A84_M48A1/normal/lod0/Hull.model</undamaged>
@@ -163,7 +159,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.701000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -277,11 +272,6 @@
         <points>
           <normal>0.000001 -0.536286 -1.667568</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.667568</clippingPlaneZPos>
-          <textureScaleFactor>0.613000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_1_M48A1</userString>
       <description>#usa_vehicles:Turret_1_M48A1_descr</description>

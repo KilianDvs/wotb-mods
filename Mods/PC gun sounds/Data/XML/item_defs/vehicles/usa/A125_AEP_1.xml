@@ -72,11 +72,6 @@
       <points>
         <normal>-0.001022 -0.000304 -0.000156</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 -0.021129 -0.058000</cylinderPos>
-        <cylinderXYScale>1.495000</cylinderXYScale>
-        <cylinderZScale>0.732394</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -178,7 +173,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.660000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -254,11 +248,6 @@
         <points>
           <normal>-0.000263 -0.004961 -1.550025</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.561722</clippingPlaneZPos>
-          <textureScaleFactor>0.612674</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_1_A125_AEP_1</userString>
       <description>#usa_vehicles:Turret_1_A125_AEP_1_descr</description>

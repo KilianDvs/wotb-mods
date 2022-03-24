@@ -68,10 +68,6 @@
       <points>
         <normal>-0.000064 0.000566 -1.300414</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.063000 1.289000</cylinderPos>
-        <cylinderXYScale>0.993000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/french/F68_AMX_Chasseur_de_char_46/normal/lod0/Hull.model</undamaged>
@@ -163,7 +159,6 @@
         <lodDist>MEDIUM_TRACK</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.790000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -414,11 +409,6 @@
         <points>
           <normal>0.000097 -0.901212 -1.668450</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.719000</clippingPlaneZPos>
-          <textureScaleFactor>-1.352000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#france_vehicles:Turret_1_AMX_Chasseur_de_char_46</userString>
       <tags/>

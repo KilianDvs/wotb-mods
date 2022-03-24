@@ -72,7 +72,6 @@
       <points>
         <normal>-0.000494 -0.001605 0.000394</normal>
       </points>
-      <detachedTurret/>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -254,7 +253,6 @@
         <points>
           <normal>-0.000200 0.122726 -1.400644</normal>
         </points>
-        <clipParams/>
       </blitz>
       <userString>#china_vehicles:Turret_1_Ch43_WZ_122_2</userString>
       <description>#china_vehicles:Turret_1_Ch43_WZ_122_2_descr</description>

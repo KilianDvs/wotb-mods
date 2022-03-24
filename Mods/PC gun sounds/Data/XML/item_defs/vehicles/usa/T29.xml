@@ -71,10 +71,6 @@
       <points>
         <normal>0.000000 0.000201 -1.029630</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 0.993000</cylinderPos>
-        <cylinderXYScale>1.077000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/american/A11_T29/normal/lod0/Hull.model</undamaged>
@@ -173,7 +169,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.595000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -292,7 +287,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.595000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -390,11 +384,6 @@
         <points>
           <normal>0.003189 -0.576750 -1.638926</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.648000</clippingPlaneZPos>
-          <textureScaleFactor>0.700000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:T123</userString>
       <description>#usa_vehicles:T123_descr</description>
@@ -625,11 +614,6 @@
         <points>
           <normal>0.002161 -0.577750 -1.639229</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.631000</clippingPlaneZPos>
-          <textureScaleFactor>0.700000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:T136</userString>
       <description>#usa_vehicles:T136_descr</description>

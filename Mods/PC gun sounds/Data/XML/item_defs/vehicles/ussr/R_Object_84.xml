@@ -71,11 +71,6 @@
       <points>
         <normal>-0.000409 0.000074 0.000147</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>-0.000003 -0.000003 -0.063383</cylinderPos>
-        <cylinderXYScale>1.056336</cylinderXYScale>
-        <cylinderZScale>0.943661</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -354,11 +349,6 @@
         <points>
           <normal>0.000000 0.587648 -1.310929</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.315000</clippingPlaneZPos>
-          <textureScaleFactor>0.612674</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#ussr_vehicles:Turret_1_R_Object_84</userString>
       <description>#ussr_vehicles:Turret_1_R_Object_84_descr</description>

@@ -71,10 +71,6 @@
       <points>
         <normal>0.000462 -0.005962 0.004250</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.063000</cylinderPos>
-        <cylinderXYScale>0.972000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -169,7 +165,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.835000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -275,11 +270,6 @@
         <points>
           <normal>0.000000 -0.303653 -1.623501</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.615000</clippingPlaneZPos>
-          <textureScaleFactor>0.634000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_1_T49R</userString>
       <description>#usa_vehicles:Turret_1_T49R_descr</description>

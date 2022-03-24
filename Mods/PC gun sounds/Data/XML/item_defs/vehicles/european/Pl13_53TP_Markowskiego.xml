@@ -73,11 +73,6 @@
       <points>
         <normal>-0.000466 -0.000720 -0.000171</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.063383</cylinderPos>
-        <cylinderXYScale>1.000000</cylinderXYScale>
-        <cylinderZScale>0.316901</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -179,7 +174,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.654000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -275,7 +269,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.654000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -351,11 +344,6 @@
         <points>
           <normal>0.000626 -1.015667 -1.624184</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.636781</clippingPlaneZPos>
-          <textureScaleFactor>0.587330</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_1_Pl13_53TP_Markowskiego</userString>
       <description>#european_vehicles:Turret_1_Pl13_53TP_Markowskiego_descr</description>
@@ -498,11 +486,6 @@
         <points>
           <normal>0.000803 -1.016569 -1.623466</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.618184</clippingPlaneZPos>
-          <textureScaleFactor>0.570428</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_2_Pl13_53TP_Markowskiego</userString>
       <description>#european_vehicles:Turret_2_Pl13_53TP_Markowskiego_descr</description>

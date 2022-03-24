@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
-  <nextAvailableId>89</nextAvailableId>
+  <nextAvailableId>90</nextAvailableId>
   <ids>
     <_75mm_L56_5_kan_Strv_74>1</_75mm_L56_5_kan_Strv_74>
     <_90mm_KwK_E_L56>2</_90mm_KwK_E_L56>
@@ -33,6 +33,7 @@
     <_105mm_KwK18_L52HW>84</_105mm_KwK18_L52HW>
     <_75mm_SA50BP>85</_75mm_SA50BP>
     <QF_6_pounder_Mk_V_HW>86</QF_6_pounder_Mk_V_HW>
+    <_100mm_D10AD>87</_100mm_D10AD>
     <_85mm_ZiS_S-53BP>88</_85mm_ZiS_S-53BP>
   </ids>
   <shared>
@@ -1737,6 +1738,61 @@
         </_6pdr_HE_HW>
       </shots>
     </QF_6_pounder_Mk_V_HW>
+    <_100mm_D10AD>
+      <userString>#other_vehicles:_100mm_D10AD</userString>
+      <shortUserString>#other_vehicles:_100mm_D10AD_short</shortUserString>
+      <description>#other_vehicles:_100mm_D10AD_descr</description>
+      <tags/>
+      <level>9</level>
+      <price>0</price>
+      <impulse>0.44</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.56</amplitude>
+        <backoffTime>0.1</backoffTime>
+        <returnTime>0.54</returnTime>
+      </recoil>
+      <effects>shot_main_extra</effects>
+      <pitchLimits>-20 5</pitchLimits>
+      <rotationSpeed>33.25</rotationSpeed>
+      <reloadTime>8.0</reloadTime>
+      <maxAmmo>24</maxAmmo>
+      <aimingTime>2.85</aimingTime>
+      <weight>2300</weight>
+      <maxHealth>194</maxHealth>
+      <maxRegenHealth>97</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.38</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.16</turretRotation>
+        <afterShot>4.0</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_100mm_UBR-412AD>
+          <defaultPortion>0.85</defaultPortion>
+          <speed>1015</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>207 182</piercingPower>
+        </_100mm_UBR-412AD>
+        <_100mm_3UBK4AD>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>895</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>270 270</piercingPower>
+        </_100mm_3UBK4AD>
+        <_100mm_UOF-412AD>
+          <defaultPortion>0.15</defaultPortion>
+          <speed>895</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>50 50</piercingPower>
+        </_100mm_UOF-412AD>
+      </shots>
+    </_100mm_D10AD>
     <_85mm_ZiS_S-53BP>
       <userString>#other_vehicles:_85mm_ZiS_S-53BP</userString>
       <shortUserString>#other_vehicles:_85mm_ZiS_S-53BP_short</shortUserString>

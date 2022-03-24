@@ -72,10 +72,6 @@
       <points>
         <normal>0.000462 -0.004003 -0.000965</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.359000 -0.063000</cylinderPos>
-        <cylinderXYScale>0.866000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/german/S01_Frankentank/normal/lod0/Hull.model</undamaged>
@@ -176,7 +172,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.640000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -262,11 +257,6 @@
         <points>
           <normal>0.000067 -0.504000 -1.770001</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.776000</clippingPlaneZPos>
-          <textureScaleFactor>0.676000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#germany_vehicles:Turret_1_Frankentank</userString>
       <shortUserString>#germany_vehicles:Turret_1_Frankentank_short</shortUserString>

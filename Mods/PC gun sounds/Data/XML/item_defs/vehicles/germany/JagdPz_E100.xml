@@ -204,7 +204,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.500000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>

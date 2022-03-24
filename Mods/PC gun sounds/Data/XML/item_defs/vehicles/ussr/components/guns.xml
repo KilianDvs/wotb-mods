@@ -6303,7 +6303,7 @@
       <shortUserString>#ussr_vehicles:_122mm_M62A_short</shortUserString>
       <description>#ussr_vehicles:_122mm_M62A_descr</description>
       <tags/>
-      <level>10</level>
+      <level>9</level>
       <price>0</price>
       <impulse>0.62</impulse>
       <recoil>
@@ -6393,14 +6393,14 @@
           <speed>950</speed>
           <gravity>9.81</gravity>
           <maxDistance>720</maxDistance>
-          <piercingPower>195 175</piercingPower>
+          <piercingPower>185 165</piercingPower>
         </_107mm_UBR-420M2>
         <_107mm_UBR-420PM2>
           <defaultPortion>0.0</defaultPortion>
           <speed>1150</speed>
           <gravity>9.81</gravity>
           <maxDistance>720</maxDistance>
-          <piercingPower>250 225</piercingPower>
+          <piercingPower>240 215</piercingPower>
         </_107mm_UBR-420PM2>
         <_107mm_UOF-420M2>
           <defaultPortion>0.20</defaultPortion>

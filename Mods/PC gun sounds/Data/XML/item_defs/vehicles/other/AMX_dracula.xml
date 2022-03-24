@@ -101,10 +101,6 @@
       <points>
         <normal>0.003428 0.004287 -0.000128</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.042000</cylinderPos>
-        <cylinderXYScale>0.951000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -187,7 +183,6 @@
         <lodDist>MEDIUM_TRACK</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.925000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -397,11 +392,6 @@
         <points>
           <normal>-0.000000 -0.755481 -1.414253</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.434000</clippingPlaneZPos>
-          <textureScaleFactor>0.718000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#other_vehicles:Turret_1_Dracula</userString>
       <tags/>

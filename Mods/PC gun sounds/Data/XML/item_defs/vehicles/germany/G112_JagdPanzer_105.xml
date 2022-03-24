@@ -71,7 +71,6 @@
       <points>
         <normal>0.003118 -0.000408 0.000891</normal>
       </points>
-      <detachedTurret/>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -177,7 +176,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.865000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -253,7 +251,6 @@
         <points>
           <normal>0.000000 0.000000 0.000000</normal>
         </points>
-        <clipParams/>
       </blitz>
       <userString>#germany_vehicles:Turret_1_G112_JagdPanzer_105</userString>
       <description>#germany_vehicles:Turret_1_G112_JagdPanzer_105_descr</description>

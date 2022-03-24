@@ -73,11 +73,6 @@
       <points>
         <normal>-0.000219 -0.004190 0.002907</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.034318</cylinderPos>
-        <cylinderXYScale>1.039962</cylinderXYScale>
-        <cylinderZScale>0.988561</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -180,7 +175,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.1</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -276,7 +270,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>0.1</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -352,11 +345,6 @@
         <points>
           <normal>-0.000162 -0.180441 -1.600188</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.610000</clippingPlaneZPos>
-          <textureScaleFactor>0.587324</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_1_Pl11_45TP_Habicha</userString>
       <description>#european_vehicles:Turret_1_Pl11_45TP_Habicha_descr</description>
@@ -494,11 +482,6 @@
         <points>
           <normal>0.000021 -0.180344 -1.600997</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.610000</clippingPlaneZPos>
-          <textureScaleFactor>0.583387</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#european_vehicles:Turret_2_Pl11_45TP_Habicha</userString>
       <description>#european_vehicles:Turret_2_Pl11_45TP_Habicha_descr</description>

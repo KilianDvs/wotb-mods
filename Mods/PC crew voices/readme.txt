@@ -1,8 +1,8 @@
 WoT Full National Crew Voice Mod - for World of Tanks Blitz 
 
-Compatible game version: 8.8.X
-Version: 2.3_8.8.X
-build time: 17/02/2022 1:12AM UTC+11, Sydney Time
+Compatible game version: 8.9.X
+Version: 2.3_8.9.X
+build time: 24/03/2022 12:51AM UTC+11, Sydney Time
 
 How to use:
 	~!~ REMEMBER TO ENABLE NATIONAL CREW VOICE OPTION IN-GAME ~!~

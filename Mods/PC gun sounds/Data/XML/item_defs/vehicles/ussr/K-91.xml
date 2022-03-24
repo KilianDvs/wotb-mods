@@ -76,10 +76,6 @@
       <points>
         <normal>-0.002682 -0.000009 0.000774</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.042000</cylinderPos>
-        <cylinderXYScale>1.141000</cylinderXYScale>
-      </detachedTurret>
     </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
@@ -171,7 +167,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.670000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -248,11 +243,6 @@
         <points>
           <normal>0.000000 0.152482 -1.317793</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.377000</clippingPlaneZPos>
-          <textureScaleFactor>0.739000</textureScaleFactor>
-          <shouldClipGun>false</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#ussr_vehicles:Turret_1_K91</userString>
       <description>#ussr_vehicles:Turret_1_K91_descr</description>

@@ -70,11 +70,6 @@
       <points>
         <normal>0.000000 -0.000221 -0.000318</normal>
       </points>
-      <detachedTurret>
-        <cylinderPos>0.000000 0.000000 -0.068000</cylinderPos>
-        <cylinderXYScale>1.216248</cylinderXYScale>
-        <cylinderZScale>0.117004</cylinderZScale>
-      </detachedTurret>
     </blitz>
     <models>
       <undamaged>vehicles/american/A67_T57_58/normal/lod0/Hull.model</undamaged>
@@ -174,7 +169,6 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-0.606000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -274,11 +268,6 @@
         <points>
           <normal>0.000146 -0.583965 -1.621076</normal>
         </points>
-        <clipParams>
-          <clippingPlaneZPos>1.629866</clippingPlaneZPos>
-          <textureScaleFactor>0.603000</textureScaleFactor>
-          <shouldClipGun>true</shouldClipGun>
-        </clipParams>
       </blitz>
       <userString>#usa_vehicles:Turret_1_T57_58</userString>
       <tags/>
