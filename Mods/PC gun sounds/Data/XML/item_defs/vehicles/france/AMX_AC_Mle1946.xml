@@ -450,6 +450,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -510,9 +511,37 @@
           <aimingTime>1.7</aimingTime>
           <invisibilityFactorAtShot>0.35</invisibilityFactorAtShot>
           <pitchLimits>-15 10</pitchLimits>
+          <shots>
+            <_90mm_Prf1941>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Prf1941>
+            <_90mm_FrtPrf1944>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_FrtPrf1944>
+            <_90mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_OE_mle_1924>
+          </shots>
         </_90mm_canon_DCA_30_CA>
         <_90mm_canon_DCA_45_AC>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -591,9 +620,37 @@
           <invisibilityFactorAtShot>0.325</invisibilityFactorAtShot>
           <pitchLimits>-15 10</pitchLimits>
           <fitsRatingBattle>false</fitsRatingBattle>
+          <shots>
+            <_90mm_Prf1941>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Prf1941>
+            <_90mm_FrtPrf1944>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_FrtPrf1944>
+            <_90mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_OE_mle_1924>
+          </shots>
         </_90mm_canon_DCA_45_AC>
         <_100mm_SA_47_AC>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -657,6 +714,33 @@
             <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_100mm_Prf1940>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_Prf1940>
+            <_100mm_FrtPrf1945>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_100mm_FrtPrf1945>
+            <_100mm_OE_mle_1930>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_OE_mle_1930>
+          </shots>
         </_100mm_SA_47_AC>
       </guns>
       <emblemSlots/>

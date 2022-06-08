@@ -337,6 +337,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -399,6 +400,33 @@
             <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_105mm_AP_T32>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_T32>
+            <_105mm_APCR_T29E3>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_APCR_T29E3>
+            <_105mm_HE_M11>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M11>
+          </shots>
         </_105mm_AT_Gun_T5A>
       </guns>
       <showEmblemsOnGun>false</showEmblemsOnGun>

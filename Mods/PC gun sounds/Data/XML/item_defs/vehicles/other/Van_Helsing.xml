@@ -334,6 +334,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -388,6 +389,33 @@
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <shotDispersionRadius>0.345</shotDispersionRadius>
+          <shots>
+            <_85mm_AP_Stake>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_85mm_AP_Stake>
+            <_85mm_HVAP_Belt>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_85mm_HVAP_Belt>
+            <_85mm_HE_G>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_85mm_HE_G>
+          </shots>
         </_85mm_Twin_X-Barrel_mod1>
       </guns>
       <emblemSlots>

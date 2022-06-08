@@ -14,25 +14,6 @@ This script is, for now, only available on Windows and Mac. No matter if you ins
 
 This script uses NodeJS to handle the installation.
 You can install NodeJS on their [official website](https://nodejs.org/en/download/).
-
-### 3) Changing the permissions of the game folders and files
-
-If you want this script to work without any problem, **I strongly advise you to change the permissions of your game folders and files**. At least for the Data folder and its subfolders.
-You can do that by pasting the following in your terminal :
-> For Steam
->
-> ``sudo chmod -R -777 "/Steam/steamapps/common/World of Tanks Blitz/Data"``
-
-> For App Store
-> 
-> ``sudo chmod -R 777 "/Applications/World of Tanks Blitz.app/Contents/Resources/Data"``
-
-- ``sudo`` is to run the command as an administrator. It will most likely ask you for your password in return
-- ``chmod`` is to change the permissions of a file or a folder
-- ``-R`` is to run the command recursively, i.e to run it for the Data folder and all its subfolders
-- ``777`` is one way to set out the permissions. 7 is basically full permissions (read, write and execute)
-- ``"path/to/Data"`` is the path to teh game data folder. the quotes are important because there are non-escaped spaces in the path, so don't forget them
-
 ## Installation
 
 Nothing simpler! either run ``npm install -g wotb-mods`` or clone this repository.
@@ -40,6 +21,7 @@ Nothing simpler! either run ``npm install -g wotb-mods`` or clone this repositor
 ## How to use it
 
 After you've install it globally, you'll be able to use the ``wotb`` command in your terminal.
+If you get a permission problem, add ``sudo`` followed by a space before the command.
 This command has several flags :
 - ``--install`` or ``-i`` is used to install mods, you can specify some arguments to choose the mods:
 >  - ``crewm`` - **PC crew voices male**

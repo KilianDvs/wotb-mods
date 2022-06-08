@@ -58,8 +58,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0028 0.0028 0.0028</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>76.788460</turret_01>
       </averageThickness>
@@ -332,8 +330,6 @@
   <turrets0>
     <Turret_1_R131_LTG>
       <blitz>
-        <armorScale>0.0056 0.0056 0.0056</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.067985 -1.674704 -0.504996</min>
@@ -401,9 +397,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0423 1.1169 1.0676</armorScale>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.343666 -1.095243 -0.231177</min>
@@ -459,6 +455,33 @@
           <extraPitchLimits>
             <back>-20 1 20</back>
           </extraPitchLimits>
+          <shots>
+            <_85mm_UBR-365K>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_85mm_UBR-365K>
+            <_85mm_UBR-365P>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_85mm_UBR-365P>
+            <_85mm_UOF-365K>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_85mm_UOF-365K>
+          </shots>
         </_85mm_ZiS_S-53M>
         <_85mm_D5T-85BMU>
           shared&#xD;
@@ -475,9 +498,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0507 1.1127 1.0338</armorScale>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.343657 -1.095243 -0.231177</min>
@@ -534,6 +557,33 @@
           <extraPitchLimits>
             <back>-20 1 20</back>
           </extraPitchLimits>
+          <shots>
+            <_85mm_UBR-365KBM>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_85mm_UBR-365KBM>
+            <_85mm_UBR-365PBM>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_85mm_UBR-365PBM>
+            <_85mm_UOF-365BM>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_85mm_UOF-365BM>
+          </shots>
         </_85mm_D5T-85BMU>
       </guns>
       <emblemSlots>

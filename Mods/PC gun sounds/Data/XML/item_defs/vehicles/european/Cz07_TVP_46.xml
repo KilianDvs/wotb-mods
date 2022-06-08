@@ -60,8 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0254 0.0099 0.0056</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>72.141563</turret_01>
         <turret_02>76.779076</turret_02>
@@ -340,8 +338,6 @@
   <turrets0>
     <Turret_1_Cz07_TVP_46>
       <blitz>
-        <armorScale>0.0380 0.0408 0.0028</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.228129 -1.203451 -0.452588</min>
@@ -410,10 +406,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0296 0.0451 0.0423</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.311160 -0.802484 -0.313743</min>
@@ -480,6 +475,33 @@
           <extraPitchLimits>
             <back>-15 5 40</back>
           </extraPitchLimits>
+          <shots>
+            <_88mm_vz_41N_OPG>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_vz_41N_OPG>
+            <_88mm_vz_42N_OPG>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_vz_42N_OPG>
+            <_88mm_Narazovy>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Narazovy>
+          </shots>
         </_88mm_vz_41N>
       </guns>
       <emblemSlots>
@@ -503,8 +525,6 @@
     </Turret_1_Cz07_TVP_46>
     <Turret_2_Cz07_TVP_46>
       <blitz>
-        <armorScale>0.0197 0.0155 0.0085</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.192554 -1.500901 -0.452587</min>
@@ -580,10 +600,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0169 0.0423 0.0169</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_06</blitzPartName>
             <bbox>
               <min>-0.316853 -0.969221 -0.308607</min>
@@ -640,6 +659,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.238</invisibilityFactorAtShot>
           <pitchLimits>-18 6</pitchLimits>
+          <shots>
+            <_88mm_vz_41N_OPG>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_vz_41N_OPG>
+            <_88mm_vz_42N_OPG>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_vz_42N_OPG>
+            <_88mm_Narazovy>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Narazovy>
+          </shots>
         </_88mm_vz_41N>
         <_100mm_vz_44S>
           shared&#xD;
@@ -654,10 +700,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0155 0.0451 0.0155</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_07</blitzPartName>
             <bbox>
               <min>-0.316853 -0.969221 -0.308607</min>
@@ -726,6 +771,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.22</invisibilityFactorAtShot>
           <pitchLimits>-18 6</pitchLimits>
+          <shots>
+            <_100mm_JPSv>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_JPSv>
+            <_100mm_JPrSv>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_100mm_JPrSv>
+            <_100mm_JOF>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_JOF>
+          </shots>
         </_100mm_vz_44S>
         <_105mm_vz_39N>
           shared&#xD;
@@ -740,10 +812,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0394 0.1394 0.0352</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_08</blitzPartName>
             <bbox>
               <min>-0.316853 -0.969221 -0.308607</min>
@@ -800,6 +871,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
           <pitchLimits>-18 6</pitchLimits>
+          <shots>
+            <_105mm_vz_39N_OPG>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_vz_39N_OPG>
+            <_105mm_vz_42N_OPG>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_vz_42N_OPG>
+            <_105mm_Narazovy>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Narazovy>
+          </shots>
         </_105mm_vz_39N>
       </guns>
       <emblemSlots>

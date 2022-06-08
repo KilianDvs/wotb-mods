@@ -60,8 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0250 0.0250 0.0250</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>85.954285</turret_01>
       </averageThickness>
@@ -238,8 +236,6 @@
   <turrets0>
     <Turret_1_S26_Lansen_C>
       <blitz>
-        <armorScale>0.0193 0.0193 0.0193</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.210687 -1.535127 -0.312232</min>
@@ -310,9 +306,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0312 1.0571 1.0340</armorScale>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.243337 -0.645529 -0.198497</min>
@@ -404,6 +400,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.190</invisibilityFactorAtShot>
           <pitchLimits>-20 10</pitchLimits>
+          <shots>
+            <_105mm_slpprj_L_53>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_slpprj_L_53>
+            <_105mm_slpprj_L_53_B>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_slpprj_L_53_B>
+            <_105mm_sgr_L_53>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_sgr_L_53>
+          </shots>
         </_105mm_lvkan_L_53>
       </guns>
       <emblemSlots>

@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0080 0.0080 0.0080</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>98.084183</turret_01>
         <turret_02>117.443253</turret_02>
@@ -336,8 +334,6 @@
   <turrets0>
     <Turret_1_Pl10_40TP_Habicha>
       <blitz>
-        <armorScale>0.0244 0.0244 0.0244</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.001180 -1.343527 -0.231736</min>
@@ -410,10 +406,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.153831 -0.455908 -0.139314</min>
@@ -455,6 +450,33 @@
           <extraPitchLimits>
             <back>-15 5 40</back>
           </extraPitchLimits>
+          <shots>
+            <_88mm_AP>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_AP>
+            <_88mm_APCR>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_APCR>
+            <_88mm_HE>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_HE>
+          </shots>
         </_88mm_wz_39>
       </guns>
       <emblemSlots>
@@ -478,8 +500,6 @@
     </Turret_1_Pl10_40TP_Habicha>
     <Turret_2_Pl10_40TP_Habicha>
       <blitz>
-        <armorScale>0.0379 0.0379 0.0379</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.026513 -1.862678 -0.345706</min>
@@ -555,10 +575,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.154829 -0.543408 -0.149163</min>
@@ -593,6 +612,33 @@
           <extraPitchLimits>
             <back>-15 5 40</back>
           </extraPitchLimits>
+          <shots>
+            <_88mm_AP>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_AP>
+            <_88mm_APCR>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_APCR>
+            <_88mm_HE>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_HE>
+          </shots>
         </_88mm_wz_39>
         <_90mm_wz_39_40>
           shared&#xD;
@@ -608,10 +654,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.126413 -0.396129 -0.144542</min>
@@ -640,9 +685,9 @@
           <armor>
             <gun>30</gun>
           </armor>
-          <shotDispersionRadius>0.38</shotDispersionRadius>
+          <shotDispersionRadius>0.39</shotDispersionRadius>
           <aimingTime>2.3</aimingTime>
-          <reloadTime>8.0</reloadTime>
+          <reloadTime>9.0</reloadTime>
           <shotDispersionFactors>
             <turretRotation>0.12</turretRotation>
             <afterShot>4</afterShot>
@@ -653,6 +698,33 @@
           <extraPitchLimits>
             <back>-15 5 40</back>
           </extraPitchLimits>
+          <shots>
+            <_90mm_AP>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP>
+            <_90mm_APCR>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_APCR>
+            <_90mm_HE>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE>
+          </shots>
         </_90mm_wz_39_40>
       </guns>
       <emblemSlots>

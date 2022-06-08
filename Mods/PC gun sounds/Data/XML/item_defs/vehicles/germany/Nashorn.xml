@@ -460,6 +460,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -508,9 +509,37 @@
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.351</invisibilityFactorAtShot>
+          <shots>
+            <_75mm_Pzgr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_Pzgr39L>
+            <_75mm_Pzgr.40L>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_75mm_Pzgr.40L>
+            <_75mm_Sprg.18L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_Sprg.18L>
+          </shots>
         </_75mm_StuK42_L70>
         <_88mm_PaK_36_L56>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -576,9 +605,37 @@
           <aimingTime>1.7</aimingTime>
           <turretYawLimits>-15 15</turretYawLimits>
           <invisibilityFactorAtShot>0.338</invisibilityFactorAtShot>
+          <shots>
+            <_88mm_Pzgr39S>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39S>
+            <_88mm_Pzgr.40S>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40S>
+            <_88mm_Sprg.18>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.18>
+          </shots>
         </_88mm_PaK_36_L56>
         <_88mm_PaK_43_L71>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -636,6 +693,33 @@
           </shotDispersionFactors>
           <aimingTime>2.1</aimingTime>
           <invisibilityFactorAtShot>0.325</invisibilityFactorAtShot>
+          <shots>
+            <_88mm_Pzgr39_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39_43>
+            <_88mm_Pzgr.40_43>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40_43>
+            <_88mm_Sprg.43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.43>
+          </shots>
         </_88mm_PaK_43_L71>
       </guns>
       <emblemSlots/>

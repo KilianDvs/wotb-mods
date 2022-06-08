@@ -58,8 +58,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0451 0.0310 0.0141</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>68.192352</turret_01>
       </averageThickness>
@@ -241,8 +239,6 @@
   <turrets0>
     <Turret_1_G112_JagdPanzer_105>
       <blitz>
-        <armorScale/>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>0.0 0.0 0.0</min>
@@ -299,10 +295,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0254 0.0254 0.0254</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.554954 -1.166891 -0.301426</min>
@@ -354,6 +349,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
           <pitchLimits>-15 8</pitchLimits>
+          <shots>
+            <_105mm_APCR_M68M2>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_APCR_M68M2>
+            <_105mm_HEAT-T_T384E4>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_HEAT-T_T384E4>
+            <_105mm_HE_M68M2>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M68M2>
+          </shots>
         </_105mm_BK_L7>
       </guns>
       <emblemSlots>

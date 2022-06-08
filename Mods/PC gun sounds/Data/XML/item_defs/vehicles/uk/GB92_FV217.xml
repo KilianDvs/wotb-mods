@@ -60,7 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>1.0056 1.0127 1.0169</armorScale>
       <averageThickness>
         <turret_01>150.567245</turret_01>
       </averageThickness>
@@ -246,8 +245,6 @@
   <turrets0>
     <Turret_1_GB92_FV217>
       <blitz>
-        <armorScale/>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>0.0 0.0 0.0</min>
@@ -304,10 +301,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0141 0.0831 0.0141</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.358428 -2.207531 -0.358960</min>
@@ -344,6 +340,33 @@
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <pitchLimits>-20 10</pitchLimits>
+          <shots>
+            <_123mm_AP_Mk_1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_123mm_AP_Mk_1>
+            <_123mm_APDS_Mk_2>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  12&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_123mm_APDS_Mk_2>
+            <_123mm_HESH_Mk_1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_123mm_HESH_Mk_1>
+          </shots>
         </_123mm_OQF_Mk_1>
       </guns>
       <emblemSlots>

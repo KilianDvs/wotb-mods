@@ -451,6 +451,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -513,6 +514,33 @@
             <tiling>0.955 0.46 0.000000 0.000000</tiling>
           </camouflage>
           <turretYawLimits>-180 180</turretYawLimits>
+          <shots>
+            <_90mm_Claw>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Claw>
+            <_90mm_Fang>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_Fang>
+            <_90mm_Swarm>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Swarm>
+          </shots>
         </_90mm_Phantom>
       </guns>
       <models>

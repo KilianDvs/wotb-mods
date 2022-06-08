@@ -453,6 +453,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -511,9 +512,37 @@
             <back>-20 8 30</back>
           </extraPitchLimits>
           <invisibilityFactorAtShot>0.351</invisibilityFactorAtShot>
+          <shots>
+            <_76mm_AP_M79>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_AP_M79>
+            <_76mm_HVAP_M93>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76mm_HVAP_M93>
+            <_76mm_HE_M42A1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_HE_M42A1>
+          </shots>
         </_76mm_AT_Gun_M1A2>
         <_90mm_AT_Gun_M3>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -583,6 +612,33 @@
             <back>-20 8 30</back>
           </extraPitchLimits>
           <invisibilityFactorAtShot>0.35</invisibilityFactorAtShot>
+          <shots>
+            <_90mm_AP_M77S>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_M77S>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_AT_Gun_M3>
       </guns>
       <emblemSlots>
@@ -675,6 +731,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -726,9 +783,37 @@
             <back>-20 8 30</back>
           </extraPitchLimits>
           <invisibilityFactorAtShot>0.351</invisibilityFactorAtShot>
+          <shots>
+            <_76mm_AP_M79>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_AP_M79>
+            <_76mm_HVAP_M93>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76mm_HVAP_M93>
+            <_76mm_HE_M42A1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_HE_M42A1>
+          </shots>
         </_76mm_AT_Gun_M1A2>
         <_90mm_AT_Gun_M3>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -790,6 +875,33 @@
           <extraPitchLimits>
             <back>-20 7 30</back>
           </extraPitchLimits>
+          <shots>
+            <_90mm_AP_M77S>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_M77S>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_AT_Gun_M3>
       </guns>
       <emblemSlots>

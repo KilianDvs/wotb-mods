@@ -60,8 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0150 0.0155 0.0130</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>80.203331</turret_01>
       </averageThickness>
@@ -234,7 +232,6 @@
   <turrets0>
     <Turret_1_S13_Leo_NY>
       <blitz>
-        <armorScale>1.0310 1.0070 1.0141</armorScale>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.309971 -1.680806 -0.295749</min>
@@ -308,9 +305,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0282 1.1352 1.0240</armorScale>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.406674 -0.855222 -0.279168</min>
@@ -365,6 +362,33 @@
           <extraPitchLimits>
             <back>-15 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_105mm_slpgr_m_43_1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_slpgr_m_43_1>
+            <_105mm_slpprj_fm_49>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_slpprj_fm_49>
+            <_105mm_tung_sgr_m_34>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_tung_sgr_m_34>
+          </shots>
         </_105mm_kan_m_34NY>
       </guns>
       <emblemSlots>

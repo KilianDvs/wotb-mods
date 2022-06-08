@@ -64,7 +64,6 @@
       <exploded>vehicles/russian/K-91/normal/lod0/Hull.model</exploded>
     </models>
     <blitz>
-      <armorScale>1.0300 1.0300 1.0300</armorScale>
       <averageThickness>
         <turret_01>231.579178</turret_01>
       </averageThickness>
@@ -234,7 +233,6 @@
   <turrets0>
     <Turret_1_K91>
       <blitz>
-        <armorScale>1.0465 1.0437 1.0394</armorScale>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.608700 -1.518087 -0.269161</min>
@@ -309,9 +307,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0650 1.0650 1.0650</armorScale>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.226027 -1.017123 -0.267842</min>
@@ -382,6 +380,33 @@
           <invisibilityFactorAtShot>0.154</invisibilityFactorAtShot>
           <turretYawLimits>-180 180</turretYawLimits>
           <emblemSlots/>
+          <shots>
+            <_100mm_BR-412DA>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_BR-412DA>
+            <_100mm_3UBK4A>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_100mm_3UBK4A>
+            <_100mm_UOF-412B>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UOF-412B>
+          </shots>
         </_100mm_D46T>
       </guns>
       <emblemSlots>

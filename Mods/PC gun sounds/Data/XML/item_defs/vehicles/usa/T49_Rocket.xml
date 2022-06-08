@@ -24,10 +24,10 @@
     <backward>24</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.22</moving>
-    <still>0.22</still>
+    <moving>0.25</moving>
+    <still>0.25</still>
     <camouflageNetBonus>0.1</camouflageNetBonus>
-    <firePenalty>0.33</firePenalty>
+    <firePenalty>0.36</firePenalty>
   </invisibility>
   <repairCost>9.0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -337,6 +337,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_05</blitzPartName>
@@ -398,6 +399,26 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
           <pitchLimits>-19.5 9.5</pitchLimits>
+          <shots>
+            <_152mm_MGM_51A>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_152mm_MGM_51A>
+            <_152mm_MGM_51C>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  3&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_152mm_MGM_51C>
+          </shots>
         </_152mm_Launcher_XM81>
       </guns>
       <emblemSlots>

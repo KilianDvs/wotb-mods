@@ -444,6 +444,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -508,9 +509,37 @@
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <fitsRatingBattle>true</fitsRatingBattle>
+          <shots>
+            <_90mm_AP_M77>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_M77>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_Gun_M3>
         <_105mm_Gun_T5E1>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -573,6 +602,33 @@
           <shotDispersionRadius>0.42</shotDispersionRadius>
           <aimingTime>2.7</aimingTime>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_AP_T32>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_T32>
+            <_105mm_APCR_T29E3>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_APCR_T29E3>
+            <_105mm_HE_M11>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M11>
+          </shots>
         </_105mm_Gun_T5E1>
       </guns>
       <emblemSlots>
@@ -685,6 +741,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -737,9 +794,37 @@
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <fitsRatingBattle>true</fitsRatingBattle>
+          <shots>
+            <_90mm_AP_M77>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_M77>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_Gun_M3>
         <_105mm_Gun_T5E1>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -803,6 +888,33 @@
           </armor>
           <shotDispersionRadius>0.42</shotDispersionRadius>
           <aimingTime>2.7</aimingTime>
+          <shots>
+            <_105mm_AP_T32>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_T32>
+            <_105mm_APCR_T29E3>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_APCR_T29E3>
+            <_105mm_HE_M11>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M11>
+          </shots>
         </_105mm_Gun_T5E1>
       </guns>
       <emblemSlots>

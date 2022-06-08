@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0437 0.0211 0.0239</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>189.341446</turret_01>
       </averageThickness>
@@ -238,8 +236,6 @@
   <turrets0>
     <Turret_1_A125_AEP_1>
       <blitz>
-        <armorScale>0.0676 0.0549 0.0113</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.520634 -3.099768 -0.756304</min>
@@ -315,10 +311,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.1127 0.0662 0.0676</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.265883 -1.713927 -0.319606</min>
@@ -380,6 +375,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
           <pitchLimits>-20 10</pitchLimits>
+          <shots>
+            <_120mm_AP-T_M358>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP-T_M358>
+            <_120mm_HEAT-T_M469>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_HEAT-T_M469>
+            <_120mm_HE_Shot>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_HE_Shot>
+          </shots>
         </_120mm_Gun_M58A>
       </guns>
       <emblemSlots>

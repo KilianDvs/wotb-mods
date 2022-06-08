@@ -25,9 +25,9 @@
     <backward>12</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.184</moving>
-    <still>0.245</still>
-    <firePenalty>0.176</firePenalty>
+    <moving>0.204</moving>
+    <still>0.266</still>
+    <firePenalty>0.196</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -331,6 +331,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -374,6 +375,33 @@
             <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_105mm_Pzgr-N>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Pzgr-N>
+            <_105mm_Pzgr-NL>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr-NL>
+            <_105mm_Sprgr-N>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprgr-N>
+          </shots>
         </_105mm_KwK_N_L45>
       </guns>
       <emblemSlots>

@@ -358,6 +358,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -406,6 +407,33 @@
           </shotDispersionFactors>
           <aimingTime>2.5</aimingTime>
           <invisibilityFactorAtShot>0.23</invisibilityFactorAtShot>
+          <shots>
+            <_130mm_PB-46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_PB-46>
+            <_130mm_PB-46A>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_130mm_PB-46A>
+            <_130mm_OF-46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_OF-46>
+          </shots>
         </_130mm_B-13-S2>
       </guns>
       <emblemSlots/>

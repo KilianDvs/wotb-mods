@@ -490,6 +490,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -555,9 +556,37 @@
           <aimingTime>1.7</aimingTime>
           <invisibilityFactorAtShot>0.364</invisibilityFactorAtShot>
           <turretYawLimits>-180 180</turretYawLimits>
+          <shots>
+            <_76mm_AP_M79>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_AP_M79>
+            <_76mm_HVAP_M93>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76mm_HVAP_M93>
+            <_76mm_HE_M42A1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_HE_M42A1>
+          </shots>
         </_76mm_AT_Gun_M1A1>
         <_76mm_AT_Gun_M1A2>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -636,6 +665,33 @@
           <aimingTime>1.7</aimingTime>
           <invisibilityFactorAtShot>0.351</invisibilityFactorAtShot>
           <turretYawLimits>-180 180</turretYawLimits>
+          <shots>
+            <_76mm_AP_M79>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_AP_M79>
+            <_76mm_HVAP_M93>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76mm_HVAP_M93>
+            <_76mm_HE_M42A1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_HE_M42A1>
+          </shots>
         </_76mm_AT_Gun_M1A2>
       </guns>
       <emblemSlots>
@@ -758,6 +814,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_05</blitzPartName>
@@ -816,9 +873,37 @@
             <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_76mm_AP_M79>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_AP_M79>
+            <_76mm_HVAP_M93>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76mm_HVAP_M93>
+            <_76mm_HE_M42A1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_HE_M42A1>
+          </shots>
         </_76mm_AT_Gun_M1A1>
         <_76mm_AT_Gun_M1A2>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -889,9 +974,37 @@
           <aimingTime>1.7</aimingTime>
           <invisibilityFactorAtShot>0.351</invisibilityFactorAtShot>
           <turretYawLimits>-180 180</turretYawLimits>
+          <shots>
+            <_76mm_AP_M79>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_AP_M79>
+            <_76mm_HVAP_M93>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76mm_HVAP_M93>
+            <_76mm_HE_M42A1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76mm_HE_M42A1>
+          </shots>
         </_76mm_AT_Gun_M1A2>
         <_90mm_AT_Gun_M3>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -971,6 +1084,33 @@
           <shotDispersionRadius>0.35</shotDispersionRadius>
           <aimingTime>1.7</aimingTime>
           <turretYawLimits>-180 180</turretYawLimits>
+          <shots>
+            <_90mm_AP_M77S>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_M77S>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_AT_Gun_M3>
       </guns>
       <emblemSlots>

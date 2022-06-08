@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0958 0.0535 0.0676</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>147.249023</turret_01>
       </averageThickness>
@@ -247,8 +245,6 @@
   <turrets0>
     <Turret_Frankentank>
       <blitz>
-        <armorScale>0.0620 0.0859 0.0423</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.240931 -1.961971 -0.082162</min>
@@ -304,14 +300,14 @@
         </gunner_1>
         <loader_1>
           0&#xD;
-            		&#xD;
+					&#xD;
 				
           <chanceToHitByProjectile>0</chanceToHitByProjectile>
           <chanceToHitByExplosion>0</chanceToHitByExplosion>
         </loader_1>
         <loader_2>
           0&#xD;
-            		&#xD;
+					&#xD;
 				
           <chanceToHitByProjectile>0</chanceToHitByProjectile>
           <chanceToHitByExplosion>0</chanceToHitByExplosion>
@@ -347,10 +343,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0521 0.0535 0.0507</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.739226 -0.611978 -0.411721</min>
@@ -405,6 +400,33 @@
           <aimingTime>2.5</aimingTime>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
           <fitsRatingBattle>true</fitsRatingBattle>
+          <shots>
+            <_105mm_AP_T32>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_T32>
+            <_105mm_APCR_T29E3>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_APCR_T29E3>
+            <_105mm_HE_M11>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M11>
+          </shots>
         </_105mm_Gun_T5E1_Franken>
         <_130mm_B-13-S2_Franken>
           shared&#xD;
@@ -419,10 +441,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0437 0.1239 0.0718</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.314091 -1.480125 -0.436078</min>
@@ -469,6 +490,33 @@
           </shotDispersionFactors>
           <aimingTime>2.9</aimingTime>
           <invisibilityFactorAtShot>0.23</invisibilityFactorAtShot>
+          <shots>
+            <_130mm_PB-46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_PB-46>
+            <_130mm_PB-46A>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_130mm_PB-46A>
+            <_130mm_OF-46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_OF-46>
+          </shots>
         </_130mm_B-13-S2_Franken>
       </guns>
       <emblemSlots>

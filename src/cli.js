@@ -124,9 +124,9 @@ async function createPaths() {
   : fs.existsSync(AppStorePathToData) ? AppStorePathToData
   : undefined
 
-  const username = os.userInfo().username
-  const windowsPathToImages = `C:/Users/${username}/Documents/DAVAProjects/image_cache`
-  const macPathToImages = `/Users/${username}/Library/Containers/net.wargaming.wotblitz.macos/Data/Documents/DAVAProject/image_cache`
+  const home = process.env.HOME
+  const windowsPathToImages = `${home}/Documents/DAVAProjects/image_cache`
+  const macPathToImages = `${home}/Library/Containers/net.wargaming.wotblitz.macos/Data/Documents/DAVAProject/image_cache`
 
   const images =
     os.type() === "Darwin" ? macPathToImages : windowsPathToImages

@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0202 0.0202 0.0202</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>172.470688</turret_01>
         <turret_02>178.410568</turret_02>
@@ -339,8 +337,6 @@
   <turrets0>
     <Turret_1_Pl05_50TP_Tyszkiewicza>
       <blitz>
-        <armorScale>0.0123 0.0236 0.0236</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.246650 -1.632291 -0.404737</min>
@@ -411,9 +407,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0585 1.0585 1.0585</armorScale>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.247590 -0.867709 -0.263629</min>
@@ -470,6 +466,33 @@
           <extraPitchLimits>
             <back>-20 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_122mm_UBR-471P_P>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UBR-471P_P>
+            <_122mm_UBR-471P_PB>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_UBR-471P_PB>
+            <_122mm_UOF-471P_P>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UOF-471P_P>
+          </shots>
         </_122mm_wz_53>
       </guns>
       <emblemSlots>
@@ -493,8 +516,6 @@
     </Turret_1_Pl05_50TP_Tyszkiewicza>
     <Turret_2_Pl05_50TP_Tyszkiewicza>
       <blitz>
-        <armorScale>0.0202 0.0123 0.0123</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.401332 -2.242152 -0.179717</min>
@@ -572,9 +593,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0484 1.0484 1.0484</armorScale>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.443922 -0.934752 -0.268018</min>
@@ -624,6 +645,33 @@
           <extraPitchLimits>
             <back>-20 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_122mm_UBR-471P_P>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UBR-471P_P>
+            <_122mm_UBR-471P_PB>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_UBR-471P_PB>
+            <_122mm_UOF-471P_P>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UOF-471P_P>
+          </shots>
         </_122mm_wz_53>
         <_130mm_R_14_wz_56>
           shared&#xD;
@@ -639,9 +687,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0506 1.0506 1.0506</armorScale>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.443427 -0.934752 -0.268018</min>
@@ -698,6 +746,33 @@
           <extraPitchLimits>
             <back>-20 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_130mm_AZ_PB_46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_AZ_PB_46>
+            <_130mm_AZ_PB_46_A>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_130mm_AZ_PB_46_A>
+            <_130mm_AZ_OF_46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_AZ_OF_46>
+          </shots>
         </_130mm_R_14_wz_56>
       </guns>
       <emblemSlots>

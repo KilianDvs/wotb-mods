@@ -502,6 +502,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -564,6 +565,33 @@
             <tiling>0.955 0.46 0.000000 0.000000</tiling>
           </camouflage>
           <animateEmblemSlots>true</animateEmblemSlots>
+          <shots>
+            <_90mm_Prf1941>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Prf1941>
+            <_90mm_FrtPrf1944>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_FrtPrf1944>
+            <_90mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_OE_mle_1924>
+          </shots>
         </_90mm_canon_DCA_45_AC_A>
       </guns>
       <showEmblemsOnGun>false</showEmblemsOnGun>

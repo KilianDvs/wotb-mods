@@ -58,8 +58,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0075 0.0075 0.0169</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>113.617378</turret_01>
       </averageThickness>
@@ -238,8 +236,6 @@
   <turrets0>
     <Turret_1_F89_Canon_dassaut_105>
       <blitz>
-        <armorScale/>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>0.0 0.0 0.0</min>
@@ -297,9 +293,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0441 1.0802 1.0402</armorScale>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.372603 -1.414237 -0.328760</min>
@@ -352,6 +348,33 @@
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
           <turretYawLimits>-10 10</turretYawLimits>
           <pitchLimits>-20 8</pitchLimits>
+          <shots>
+            <_105mm_OFL_105_F1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_OFL_105_F1>
+            <_105mm_OCC_105_F1>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_OCC_105_F1>
+            <_105mm_OE_105_Mle_60>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_OE_105_Mle_60>
+          </shots>
         </_105mm_CN_105>
       </guns>
       <emblemSlots>

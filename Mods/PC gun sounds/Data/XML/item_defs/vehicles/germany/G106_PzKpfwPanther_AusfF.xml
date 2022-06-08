@@ -563,6 +563,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -640,6 +641,33 @@
             <tiling>0.745 0.445 0.000000 0.000000</tiling>
           </camouflage>
           <shotDispersionRadius>0.33</shotDispersionRadius>
+          <shots>
+            <_88mm_Pzgr39_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39_43>
+            <_88mm_Pzgr.40_43>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40_43>
+            <_88mm_Sprg.43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.43>
+          </shots>
         </_88mm_KwK_43_L71B>
       </guns>
       <showEmblemsOnGun>false</showEmblemsOnGun>

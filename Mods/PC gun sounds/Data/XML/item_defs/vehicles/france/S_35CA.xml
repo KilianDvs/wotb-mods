@@ -499,6 +499,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -567,9 +568,37 @@
             </insigniaOnGun>
           </emblemSlots>
           <animateEmblemSlots>true</animateEmblemSlots>
+          <shots>
+            <_76.2_mm_AP_Mk.3T>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76.2_mm_AP_Mk.3T>
+            <_76.2_mm_APCBC_Mk.8T>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_76.2_mm_APCBC_Mk.8T>
+            <_76.2_mm_HE_Mk._1T>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_76.2_mm_HE_Mk._1T>
+          </shots>
         </_17_pdr_Gan_MK.II>
         <_90mm_canon_DCA_30_CA>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -652,6 +681,33 @@
             </insigniaOnGun>
           </emblemSlots>
           <animateEmblemSlots>true</animateEmblemSlots>
+          <shots>
+            <_90mm_Prf1941>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Prf1941>
+            <_90mm_FrtPrf1944>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_FrtPrf1944>
+            <_90mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_OE_mle_1924>
+          </shots>
         </_90mm_canon_DCA_30_CA>
       </guns>
       <emblemSlots/>

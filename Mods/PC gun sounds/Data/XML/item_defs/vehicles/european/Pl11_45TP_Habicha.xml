@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0113 0.0113 0.0113</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>134.207474</turret_01>
         <turret_02>131.777969</turret_02>
@@ -335,8 +333,6 @@
   <turrets0>
     <Turret_1_Pl11_45TP_Habicha>
       <blitz>
-        <armorScale>0.0155 0.0155 0.0155</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.014205 -1.845564 -0.333460</min>
@@ -404,10 +400,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.127644 -0.575667 -0.183565</min>
@@ -449,6 +444,33 @@
           <extraPitchLimits>
             <back>-20 4 40</back>
           </extraPitchLimits>
+          <shots>
+            <_90mm_AP>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP>
+            <_90mm_APCR>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_APCR>
+            <_90mm_HE>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE>
+          </shots>
         </_90mm_wz_39_40>
       </guns>
       <emblemSlots>
@@ -472,8 +494,6 @@
     </Turret_1_Pl11_45TP_Habicha>
     <Turret_2_Pl11_45TP_Habicha>
       <blitz>
-        <armorScale>0.0127 0.0127 0.0127</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.204297 -1.866456 -0.270673</min>
@@ -549,10 +569,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.157791 -0.594495 -0.187493</min>
@@ -617,6 +636,33 @@
           <extraPitchLimits>
             <back>-20 4 40</back>
           </extraPitchLimits>
+          <shots>
+            <_90mm_AP>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP>
+            <_90mm_APCR>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_APCR>
+            <_90mm_HE>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE>
+          </shots>
         </_90mm_wz_39_40>
         <_105mm_Bofors_wz_32>
           shared&#xD;
@@ -633,10 +679,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_04</blitzPartName>
             <bbox>
               <min>-0.128100 -0.594495 -0.187493</min>
@@ -678,6 +723,33 @@
           <extraPitchLimits>
             <back>-20 4 40</back>
           </extraPitchLimits>
+          <shots>
+            <_105mm_slpgr_m_43_1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_slpgr_m_43_1>
+            <_105mm_slpprj_fm_49>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_slpprj_fm_49>
+            <_105mm_tung_sgr_m_34>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_tung_sgr_m_34>
+          </shots>
         </_105mm_Bofors_wz_32>
       </guns>
       <emblemSlots>

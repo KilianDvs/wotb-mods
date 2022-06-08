@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0169 0.0169 0.0169</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>46.416416</turret_01>
       </averageThickness>
@@ -230,8 +228,6 @@
   <turrets0>
     <Turret_A130_Super_Hellcat>
       <blitz>
-        <armorScale>0.0197 0.0197 0.0197</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.054307 -1.805666 -0.401409</min>
@@ -299,10 +295,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0099 0.0296 0.0296</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.601582 -1.142584 -0.249882</min>
@@ -357,6 +352,33 @@
           <extraPitchLimits>
             <back>-17 0 30</back>
           </extraPitchLimits>
+          <shots>
+            <_90mm_AP_T33>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_T33>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_AT_Gun_M3T>
       </guns>
       <emblemSlots>

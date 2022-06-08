@@ -57,7 +57,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>1.0111 1.0140 1.0155</armorScale>
       <averageThickness>
         <turret_01>132.018326</turret_01>
       </averageThickness>
@@ -341,7 +340,6 @@
   <turrets0>
     <Turret_1_Ch36_WZ111_1G_FT>
       <blitz>
-        <armorScale>1.0300 1.0300 1.0300</armorScale>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>0.0 0.0 0.0</min>
@@ -399,9 +397,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0650 1.0650 1.0650</armorScale>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.495900 -0.908370 -0.243595</min>
@@ -451,9 +449,37 @@
           </shotDispersionFactors>
           <pitchLimits>-15 6</pitchLimits>
           <turretYawLimits>-12 12</turretYawLimits>
+          <shots>
+            <_122mm_CB-472>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_CB-472>
+            <_122mm_PO-122>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_PO-122>
+            <_122mm_SB-472>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_SB-472>
+          </shots>
         </_122mm_60_122TG_FT>
         <_130mm_59_130JG_FT>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -518,6 +544,33 @@
           </shotDispersionFactors>
           <pitchLimits>-15 6</pitchLimits>
           <turretYawLimits>-12 12</turretYawLimits>
+          <shots>
+            <_130mm_Chuan_bei_482G>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_Chuan_bei_482G>
+            <_130mm_Po_130G>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_130mm_Po_130G>
+            <_130mm_Sha_bao_482G>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_Sha_bao_482G>
+          </shots>
         </_130mm_59_130JG_FT>
       </guns>
       <emblemSlots>

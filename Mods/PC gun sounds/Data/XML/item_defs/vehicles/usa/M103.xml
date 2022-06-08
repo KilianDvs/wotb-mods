@@ -63,8 +63,6 @@
       <exploded>vehicles/american/A66_M103/normal/lod0/Hull.model</exploded>
     </models>
     <blitz>
-      <armorScale>0.0507 0.0901 0.0296</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>168.892242</turret_01>
         <turret_02>170.659378</turret_02>
@@ -385,8 +383,6 @@
   <turrets0>
     <Turret_1_M103>
       <blitz>
-        <armorScale>0.0606 0.0648 0.0690</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.503637 -2.871747 -0.000734</min>
@@ -459,10 +455,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0254 0.0901 0.0394</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.526570 -0.681677 -0.389648</min>
@@ -521,6 +516,33 @@
           <pitchLimits>-15 8</pitchLimits>
           <aimingTime>2.3</aimingTime>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_AP_T32>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_T32>
+            <_105mm_APCR_T29E3>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_APCR_T29E3>
+            <_105mm_HE_M11>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M11>
+          </shots>
         </_105mm_Gun_T5E1>
         <_120mm_Gun_T122>
           shared&#xD;
@@ -535,10 +557,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0197 0.0789 0.0394</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.526570 -0.681677 -0.389648</min>
@@ -596,6 +617,33 @@
           <pitchLimits>-15 8</pitchLimits>
           <aimingTime>2.6</aimingTime>
           <invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+          <shots>
+            <_120mm_AP_Shot>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP_Shot>
+            <_120mm_HEAT-T_M469>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_HEAT-T_M469>
+            <_120mm_HE_Shot>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_HE_Shot>
+          </shots>
         </_120mm_Gun_T122>
       </guns>
       <emblemSlots>
@@ -633,8 +681,6 @@
     </Turret_1_M103>
     <Turret_2_M103>
       <blitz>
-        <armorScale>0.1085 0.0493 0.0648</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.486890 -2.881174 -0.050314</min>
@@ -713,10 +759,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0268 0.0746 0.0746</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.526570 -0.681677 -0.389648</min>
@@ -768,6 +813,33 @@
           <pitchLimits>-15 8</pitchLimits>
           <aimingTime>2.3</aimingTime>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_AP_T32>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_T32>
+            <_105mm_APCR_T29E3>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_APCR_T29E3>
+            <_105mm_HE_M11>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M11>
+          </shots>
         </_105mm_Gun_T5E1>
         <_120mm_Gun_T122>
           shared&#xD;
@@ -781,10 +853,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0507 0.0775 0.0479</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.526570 -0.681677 -0.389648</min>
@@ -835,6 +906,33 @@
           </shotDispersionFactors>
           <aimingTime>2.6</aimingTime>
           <invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+          <shots>
+            <_120mm_AP_Shot>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP_Shot>
+            <_120mm_HEAT-T_M469>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_HEAT-T_M469>
+            <_120mm_HE_Shot>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_HE_Shot>
+          </shots>
         </_120mm_Gun_T122>
         <_120mm_Gun_M58>
           shared&#xD;
@@ -848,10 +946,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0394 0.0718 0.0704</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_05</blitzPartName>
             <bbox>
               <min>-0.526570 -0.681677 -0.389649</min>
@@ -903,6 +1000,33 @@
             <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_120mm_AP-T_M358>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP-T_M358>
+            <_120mm_HEAT-T_M469>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_HEAT-T_M469>
+            <_120mm_HE_Shot>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_HE_Shot>
+          </shots>
         </_120mm_Gun_M58>
       </guns>
       <emblemSlots>

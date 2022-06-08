@@ -24,9 +24,9 @@
     <backward>20</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.184</moving>
-    <still>0.245</still>
-    <firePenalty>0.368</firePenalty>
+    <moving>0.224</moving>
+    <still>0.285</still>
+    <firePenalty>0.408</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -328,6 +328,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -371,6 +372,33 @@
           <turretYawLimits>-40 40</turretYawLimits>
           <pitchLimits>-10 8</pitchLimits>
           <shotDispersionRadius>0.41</shotDispersionRadius>
+          <shots>
+            <_122mm_Type_57>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_Type_57>
+            <_122mm_Type_64>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_Type_64>
+            <_122mm_Type_68>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_Type_68>
+          </shots>
         </_122mm-D25_SA>
       </guns>
       <emblemSlots>

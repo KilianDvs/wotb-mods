@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
-  <nextAvailableId>1035</nextAvailableId>
+  <nextAvailableId>1036</nextAvailableId>
   <ids>
     <QF_6_pounder_Mk_VA>3</QF_6_pounder_Mk_VA>
     <_3pdr_gun_Hotchkiss>4</_3pdr_gun_Hotchkiss>
@@ -75,6 +75,9 @@
     <OQF_55_pdr_AT_Gun>1030</OQF_55_pdr_AT_Gun>
     <_75mm_Gun_Vickers_BP>1031</_75mm_Gun_Vickers_BP>
     <_32pdr_AT_Gun_MkXVII_OQF>1032</_32pdr_AT_Gun_MkXVII_OQF>
+    <_105mm_AT_Gun_L7A1>1033</_105mm_AT_Gun_L7A1>
+    <OQF_17pdr_Gun_Mk_VII_BP>1034</OQF_17pdr_Gun_Mk_VII_BP>
+    <_150mm_QF_5_9inch>1035</_150mm_QF_5_9inch>
   </ids>
   <shared>
     <_15mm_Machine_gun_BESA>
@@ -3848,5 +3851,165 @@
         </_32pdr_HE_MkIH>
       </shots>
     </_32pdr_AT_Gun_MkXVII_OQF>
+    <_105mm_AT_Gun_L7A1>
+      <userString>#uk_vehicles:_105mm_AT_Gun_L7A1</userString>
+      <shortUserString>#uk_vehicles:_105mm_AT_Gun_L7A1_short</shortUserString>
+      <description>#uk_vehicles:_105mm_AT_Gun_L7A1_descr</description>
+      <tags/>
+      <level>8</level>
+      <price>0</price>
+      <impulse>0.48</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.24</amplitude>
+        <backoffTime>0.1</backoffTime>
+        <returnTime>0.24</returnTime>
+      </recoil>
+      <effects>shot_large</effects>
+      <turretYawLimits>-180 180</turretYawLimits>
+      <pitchLimits>-20 10</pitchLimits>
+      <rotationSpeed>25</rotationSpeed>
+      <reloadTime>7.5</reloadTime>
+      <maxAmmo>72</maxAmmo>
+      <aimingTime>2.29</aimingTime>
+      <weight>1282</weight>
+      <maxHealth>208</maxHealth>
+      <maxRegenHealth>104</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.43</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.05</turretRotation>
+        <afterShot>4.0</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_105mm_AP_Mk7>
+          <defaultPortion>0.6</defaultPortion>
+          <speed>1066</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>248 224</piercingPower>
+        </_105mm_AP_Mk7>
+        <_105mm_APDS_Kl14>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>1411</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>170 170</piercingPower>
+        </_105mm_APDS_Kl14>
+        <_105mm_HE_L7_Mk13>
+          <defaultPortion>0.4</defaultPortion>
+          <speed>1066</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>53 53</piercingPower>
+        </_105mm_HE_L7_Mk13>
+      </shots>
+    </_105mm_AT_Gun_L7A1>
+    <OQF_17pdr_Gun_Mk_VII_BP>
+      <userString>#uk_vehicles:OQF_17pdr_Gun_Mk_VII_BP</userString>
+      <shortUserString>#uk_vehicles:OQF_17pdr_Gun_Mk_VII_BP_short</shortUserString>
+      <description>#uk_vehicles:OQF_17pdr_Gun_Mk_VII_BP_descr</description>
+      <tags/>
+      <level>7</level>
+      <price>0</price>
+      <impulse>0.48</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.36</amplitude>
+        <backoffTime>0.1</backoffTime>
+        <returnTime>0.4</returnTime>
+      </recoil>
+      <effects>shot_main_mb</effects>
+      <pitchLimits>-15 7</pitchLimits>
+      <rotationSpeed>40.25</rotationSpeed>
+      <reloadTime>3.25714285714286</reloadTime>
+      <maxAmmo>70</maxAmmo>
+      <aimingTime>2.28571428571429</aimingTime>
+      <weight>826</weight>
+      <maxHealth>144</maxHealth>
+      <maxRegenHealth>72</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.4</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.12</turretRotation>
+        <afterShot>3.5</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_17pdr_AP_Mk3H>
+          <defaultPortion>0.85</defaultPortion>
+          <speed>850</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>171 161</piercingPower>
+        </_17pdr_AP_Mk3H>
+        <_17pdr_APC_Mk4H>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>1050</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>239 218</piercingPower>
+        </_17pdr_APC_Mk4H>
+        <_17pdr_HE_Mk1H>
+          <defaultPortion>0.15</defaultPortion>
+          <speed>850</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>20 20</piercingPower>
+        </_17pdr_HE_Mk1H>
+      </shots>
+    </OQF_17pdr_Gun_Mk_VII_BP>
+    <_150mm_QF_5_9inch>
+      <userString>#uk_vehicles:_150mm_QF_5_9inch</userString>
+      <shortUserString>#uk_vehicles:_150mm_QF_5_9inch_short</shortUserString>
+      <description>#uk_vehicles:_150mm_QF_5_9inch_descr</description>
+      <tags/>
+      <level>8</level>
+      <price>0</price>
+      <impulse>0.62</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.62</amplitude>
+        <backoffTime>0.1</backoffTime>
+        <returnTime>0.6</returnTime>
+      </recoil>
+      <effects>shot_huge</effects>
+      <turretYawLimits>-180 180</turretYawLimits>
+      <pitchLimits>-20 10</pitchLimits>
+      <rotationSpeed>22.75</rotationSpeed>
+      <reloadTime>15.8</reloadTime>
+      <maxAmmo>112</maxAmmo>
+      <aimingTime>5.14</aimingTime>
+      <weight>2000</weight>
+      <maxHealth>210</maxHealth>
+      <maxRegenHealth>105</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.1</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.46</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.44</turretRotation>
+        <afterShot>6.4</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_150mm_AP_Mk_1>
+          <defaultPortion>1</defaultPortion>
+          <speed>500</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>218 197</piercingPower>
+        </_150mm_AP_Mk_1>
+        <_150mm_HESH_L15>
+          <defaultPortion>0</defaultPortion>
+          <speed>354</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>170 170</piercingPower>
+        </_150mm_HESH_L15>
+      </shots>
+    </_150mm_QF_5_9inch>
   </shared>
 </root>

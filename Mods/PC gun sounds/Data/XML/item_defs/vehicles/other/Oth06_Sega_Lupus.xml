@@ -25,9 +25,9 @@
     <backward>12</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.184</moving>
-    <still>0.245</still>
-    <firePenalty>0.368</firePenalty>
+    <moving>0.204</moving>
+    <still>0.266</still>
+    <firePenalty>0.388</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -343,6 +343,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -389,6 +390,33 @@
           <shotDispersionRadius>0.45</shotDispersionRadius>
           <emblemSlots/>
           <maxAmmo>32</maxAmmo>
+          <shots>
+            <_120mm_AP-L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP-L>
+            <_120mm_BR-L>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_BR-L>
+            <_120mm_OF-L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_OF-L>
+          </shots>
         </_120mm_VC-25>
       </guns>
       <emblemSlots>

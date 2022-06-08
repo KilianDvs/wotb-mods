@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0183 0.0169 0.0254</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>128.161331</turret_01>
       </averageThickness>
@@ -105,18 +103,15 @@
       <armor_7>90</armor_7>
       <armor_8>20</armor_8>
       <armor_9>
-        50&#xD;
-			
+        50
         <vehicleDamageFactor>0.0</vehicleDamageFactor>
       </armor_9>
       <armor_10>
-        50&#xD;
-			
+        50
         <vehicleDamageFactor>0.0</vehicleDamageFactor>
       </armor_10>
       <armor_11>
-        50&#xD;
-			
+        50
         <vehicleDamageFactor>0.0</vehicleDamageFactor>
       </armor_11>
       <armor_16>20</armor_16>
@@ -246,8 +241,6 @@
   <turrets0>
     <Turret_1_Oth30_T54MS>
       <blitz>
-        <armorScale>0.0180 0.0050 0.0070</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.302986 -1.315541 -0.948120</min>
@@ -283,18 +276,15 @@
         <armor_8>100</armor_8>
         <armor_9>70</armor_9>
         <armor_10>
-          60&#xD;
-				
+          60
           <vehicleDamageFactor>0.0</vehicleDamageFactor>
         </armor_10>
         <armor_11>
-          65&#xD;
-				
+          65
           <vehicleDamageFactor>0.0</vehicleDamageFactor>
         </armor_11>
         <armor_12>
-          65&#xD;
-				
+          65
           <vehicleDamageFactor>0.0</vehicleDamageFactor>
         </armor_12>
         <armor_16>30</armor_16>
@@ -331,8 +321,6 @@
 					&#xD;
 				
           <blitz>
-            <armorScale>0.0183 0.0225 0.0169</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.212200 -0.933117 -0.195400</min>
@@ -383,6 +371,33 @@
             <front>-20 5 21</front>
             <back>-20 2.65 20</back>
           </extraPitchLimits>
+          <shots>
+            <_100mm_UBR-412AD>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UBR-412AD>
+            <_100mm_3UBK4AD>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_100mm_3UBK4AD>
+            <_100mm_UOF-412AD>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UOF-412AD>
+          </shots>
         </_100mm_D10AD>
       </guns>
       <emblemSlots>

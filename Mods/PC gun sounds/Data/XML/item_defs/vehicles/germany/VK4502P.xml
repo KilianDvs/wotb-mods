@@ -423,6 +423,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -498,9 +499,37 @@
           <shotDispersionRadius>0.34</shotDispersionRadius>
           <aimingTime>2.9</aimingTime>
           <invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
+          <shots>
+            <_88mm_Pzgr39_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39_43>
+            <_88mm_Pzgr.40_43>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40_43>
+            <_88mm_Sprg.43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.43>
+          </shots>
         </_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -587,9 +616,37 @@
           <shotDispersionRadius>0.37</shotDispersionRadius>
           <aimingTime>2.3</aimingTime>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_PzGr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_PzGr39L>
+            <_105mm_Pzgr.40>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr.40>
+            <_105mm_Sprg_L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprg_L>
+          </shots>
         </_105mm_KwK45_L52>
         <_105mm_KwK46_L68>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -668,6 +725,33 @@
           <shotDispersionRadius>0.34</shotDispersionRadius>
           <aimingTime>2.3</aimingTime>
           <invisibilityFactorAtShot>0.198</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_PzGr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_PzGr39L>
+            <_105mm_Pzgr.40>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr.40>
+            <_105mm_Sprg_L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprg_L>
+          </shots>
         </_105mm_KwK46_L68>
       </guns>
       <emblemSlots>
@@ -783,6 +867,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_03</blitzPartName>
@@ -855,9 +940,37 @@
           <aimingTime>2.9</aimingTime>
           <invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
           <fitsRatingBattle>true</fitsRatingBattle>
+          <shots>
+            <_88mm_Pzgr39_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39_43>
+            <_88mm_Pzgr.40_43>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40_43>
+            <_88mm_Sprg.43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.43>
+          </shots>
         </_88mm_KwK_43_L71>
         <_105mm_KwK45_L52>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -943,9 +1056,37 @@
             <afterShot>3</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_105mm_PzGr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_PzGr39L>
+            <_105mm_Pzgr.40>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr.40>
+            <_105mm_Sprg_L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprg_L>
+          </shots>
         </_105mm_KwK45_L52>
         <_105mm_KwK46_L68>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -1031,9 +1172,37 @@
             <afterShot>3</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_105mm_PzGr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_PzGr39L>
+            <_105mm_Pzgr.40>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr.40>
+            <_105mm_Sprg_L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprg_L>
+          </shots>
         </_105mm_KwK46_L68>
         <_128mm_KwK44_L55>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -1124,6 +1293,33 @@
           </extraPitchLimits>
           <shotDispersionRadius>0.38</shotDispersionRadius>
           <aimingTime>2.9</aimingTime>
+          <shots>
+            <_128mm_PzGr39>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_128mm_PzGr39>
+            <_128mm_PzGr40>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_128mm_PzGr40>
+            <_128mm_SprG18>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_128mm_SprG18>
+          </shots>
         </_128mm_KwK44_L55>
       </guns>
       <emblemSlots>

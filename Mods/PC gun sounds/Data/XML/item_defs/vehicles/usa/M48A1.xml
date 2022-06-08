@@ -56,7 +56,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>1.0300 1.0300 1.0300</armorScale>
       <averageThickness>
         <turret_01>154.210358</turret_01>
       </averageThickness>
@@ -263,7 +262,6 @@
   <turrets0>
     <Turret_1_M48A1>
       <blitz>
-        <armorScale>1.0300 1.0300 1.0300</armorScale>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.245355 -1.996076 -0.476046</min>
@@ -335,9 +333,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>1.0650 1.0746 1.0650</armorScale>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.467857 -0.811842 -0.379975</min>
@@ -387,6 +385,33 @@
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_APCR_M68M2>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_APCR_M68M2>
+            <_105mm_HEAT-T_T384E4>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_HEAT-T_T384E4>
+            <_105mm_HE_M68M2>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M68M2>
+          </shots>
         </_105mm_Gun_M68>
       </guns>
       <emblemSlots>

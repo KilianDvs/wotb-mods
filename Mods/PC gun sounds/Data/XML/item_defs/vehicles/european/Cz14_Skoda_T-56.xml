@@ -60,8 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0042 0.0042 0.0042</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>175.121994</turret_01>
       </averageThickness>
@@ -239,8 +237,6 @@
   <turrets0>
     <Turret_1_Cz14_Skoda_T-56>
       <blitz>
-        <armorScale>0.0155 0.0155 0.0437</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.587427 -2.093836 -0.445005</min>
@@ -317,10 +313,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0338 0.0817 0.0338</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.460050 -0.691019 -0.287515</min>
@@ -410,6 +405,33 @@
           <extraPitchLimits>
             <back>-15 5 15</back>
           </extraPitchLimits>
+          <shots>
+            <_130mm_Prurazny_vz_51>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_Prurazny_vz_51>
+            <_130mm_Prurazny_vz_56>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  12&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_130mm_Prurazny_vz_56>
+            <_130mm_Narazovy_vz_51>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_130mm_Narazovy_vz_51>
+          </shots>
         </_130mm_Skoda_R_14>
       </guns>
       <emblemSlots>

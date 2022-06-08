@@ -57,26 +57,24 @@
     <volumeFactor>1</volumeFactor>
   </horns>
   <hull>
+    <blitz>
+      <averageThickness>
+        <turret_01>214.256744</turret_01>
+      </averageThickness>
+      <blitzPartName>hull</blitzPartName>
+      <bbox>
+        <min>-2.239421 -4.157617 0.468266</min>
+        <max>2.239421 4.325181 3.442557</max>
+      </bbox>
+      <points>
+        <normal>0.000509 -0.000155 0.000146</normal>
+      </points>
+    </blitz>
     <models>
       <undamaged>vehicles/german/G72_JagdPz_E100/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/german/G72_JagdPz_E100/normal/lod0/Hull.model</destroyed>
       <exploded>vehicles/german/G72_JagdPz_E100/normal/lod0/Hull.model</exploded>
     </models>
-    <blitz>
-      <pushNormalsScale/>
-      <armorScale>0.0350 0.1350 0.0280</armorScale>
-      <averageThickness>
-        <turret_01>208.248764</turret_01>
-      </averageThickness>
-      <blitzPartName>hull</blitzPartName>
-      <bbox>
-        <min>-2.239713 -4.158754 -0.694172</min>
-        <max>2.239713 4.129079 2.285497</max>
-      </bbox>
-      <points>
-        <normal>0.000000 0.005000 -1.152658</normal>
-      </points>
-    </blitz>
     <swinging>
       <lodDist>FAR</lodDist>
       <pitchParams>0.18 36.00 0.34 1.00 0.04 0.26</pitchParams>
@@ -89,7 +87,7 @@
       <rates>5.0 10.0 25.0</rates>
     </exhaust>
     <turretPositions>
-      <turret>0.000000 1.22546 -0.3484</turret>
+      <turret>0.000000 2.375343 0.317467</turret>
     </turretPositions>
     <fakeTurrets>
       <lobby>0</lobby>
@@ -105,8 +103,8 @@
       <armor_4>150</armor_4>
       <armor_5>65</armor_5>
       <armor_6>150</armor_6>
-      <armor_7>30</armor_7>
-      <armor_8>0</armor_8>
+      <armor_7>160</armor_7>
+      <armor_8>20</armor_8>
       <armor_9>250</armor_9>
       <armor_10>80</armor_10>
       <armor_11>40</armor_11>
@@ -175,11 +173,11 @@
       <blitz>
         <blitzPartName>chassis</blitzPartName>
         <bbox>
-          <min>-2.022050 -3.798754 0.000342</min>
-          <max>2.022050 3.900141 1.348182</max>
+          <min>-2.047272 -3.545456 0.001546</min>
+          <max>2.047272 4.113119 1.354735</max>
         </bbox>
         <points>
-          <normal>0.000000 0.001469 0.007166</normal>
+          <normal>0.000000 -0.000049 -0.000497</normal>
         </points>
         <soundPC>tanks/pc/treads/ht</soundPC>
         <soundNPC>tanks/npc/treads/ht</soundNPC>
@@ -204,6 +202,7 @@
         <lodDist>MEDIUM</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
+        <textureScale>-0.500000</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -315,7 +314,7 @@
         <mud>largeTankMud</mud>
       </effects>
       <sound>/vehicles/tanks/treads/treads_0</sound>
-      <hullPosition>0.000000 1.14989 0.000000</hullPosition>
+      <hullPosition>0.000000 0.000000 0.000000</hullPosition>
       <hitTester>
         <collisionModel>vehicles/german/G72_JagdPz_E100/collision/Chassis.model</collisionModel>
       </hitTester>
@@ -345,8 +344,11 @@
   <turrets0>
     <Turret_1_JagdPz_E100>
       <blitz>
-        <armorScale>0.0000 0.0000 0.0000</armorScale>
         <blitzPartName>turret_01</blitzPartName>
+        <bbox>
+          <min>0.0 0.0 0.0</min>
+          <max>0.0 0.0 0.0</max>
+        </bbox>
         <points>
           <normal>0.000000 0.000000 0.000000</normal>
         </points>
@@ -366,7 +368,7 @@
         <collisionModel>vehicles/german/G72_JagdPz_E100/collision/Turret_01.model</collisionModel>
       </hitTester>
       <yawLimits>-12 12</yawLimits>
-      <gunPosition>0.000000 0.000000 0.000000</gunPosition>
+      <gunPosition>0.000000 -0.000043 -0.211695</gunPosition>
       <armor>
         <armor_1>18</armor_1>
         <armor_2>16</armor_2>
@@ -406,17 +408,16 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <pushNormalsScale/>
-            <armorScale>0.0700 0.1110 0.0590</armorScale>
             <blitzPartName>gun_04</blitzPartName>
             <bbox>
-              <min>-0.602412 -1.084487 -0.454779</min>
-              <max>0.602412 7.411805 0.604505</max>
+              <min>-0.610860 -1.538661 -0.482914</min>
+              <max>0.603709 7.204177 0.604449</max>
             </bbox>
             <points>
-              <normal>0.000000 0.348401 -2.375343</normal>
+              <normal>0.000000 -0.105616 -2.375250</normal>
             </points>
           </blitz>
           <maxAmmo>24</maxAmmo>
@@ -461,6 +462,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
           <turretYawLimits>-12 12</turretYawLimits>
+          <shots>
+            <_170mm_PaK_K72_PzGr43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_170mm_PaK_K72_PzGr43>
+            <_170mm_PaK_K72_PzGr45>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  14&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_170mm_PaK_K72_PzGr45>
+            <_170mm_PaK_K72_SprgG_ausf_46>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_170mm_PaK_K72_SprgG_ausf_46>
+          </shots>
         </_170mm_PaK_K72>
       </guns>
       <emblemSlots/>

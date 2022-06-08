@@ -317,6 +317,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <armorScale>0.0310 0.0310 0.0310</armorScale>
@@ -370,6 +371,33 @@
           <extraPitchLimits>
             <back>-15 4 15</back>
           </extraPitchLimits>
+          <shots>
+            <_120mm_CB-472LY>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_CB-472LY>
+            <_120mm_PO-120LY>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_PO-120LY>
+            <_120mm_SB-472LY>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_SB-472LY>
+          </shots>
         </_120mm_TG>
       </guns>
       <emblemSlots>

@@ -355,6 +355,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_05</blitzPartName>
@@ -405,6 +406,33 @@
             <back>-15 5 30</back>
           </extraPitchLimits>
           <invisibilityFactorAtShot>0.18</invisibilityFactorAtShot>
+          <shots>
+            <_120mm_AP_T42>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP_T42>
+            <_120mm_APCR_T62>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_APCR_T62>
+            <_120mm_HE-T67>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_HE-T67>
+          </shots>
         </_120mm_Gun_T53A1>
       </guns>
       <emblemSlots>

@@ -24,9 +24,9 @@
     <backward>20</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.091</moving>
-    <still>0.122</still>
-    <firePenalty>0.183</firePenalty>
+    <moving>0.121</moving>
+    <still>0.152</still>
+    <firePenalty>0.213</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -360,6 +360,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -418,6 +419,33 @@
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
           <turretYawLimits>-180 180</turretYawLimits>
           <emblemSlots/>
+          <shots>
+            <_105mm_APCR_M68M2>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_APCR_M68M2>
+            <_105mm_HEAT-T_T384E4>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_HEAT-T_T384E4>
+            <_105mm_HE_M68M2>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_M68M2>
+          </shots>
         </_105mm_Gun_M68_1>
       </guns>
       <showEmblemsOnGun>false</showEmblemsOnGun>

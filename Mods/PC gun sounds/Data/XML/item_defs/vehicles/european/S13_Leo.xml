@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0155 0.0070 0.0127</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>80.812561</turret_01>
         <turret_02>82.774185</turret_02>
@@ -336,8 +334,6 @@
   <turrets0>
     <Turret_1_S13_Leo>
       <blitz>
-        <armorScale>0.0394 0.0254 0.0197</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.309971 -1.659122 -0.295749</min>
@@ -406,10 +402,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0592 0.0592 0.0310</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.406675 -0.855222 -0.279536</min>
@@ -471,6 +466,33 @@
           <extraPitchLimits>
             <back>-15 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_75mm_slpgr_m_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_slpgr_m_43>
+            <_75mm_slpprj_m_49>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_75mm_slpprj_m_49>
+            <_75mm_sgr_m_38>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_sgr_m_38>
+          </shots>
         </_75mm_kan_strv_74_R>
       </guns>
       <emblemSlots>
@@ -494,8 +516,6 @@
     </Turret_1_S13_Leo>
     <Turret_2_S13_Leo>
       <blitz>
-        <armorScale>0.0423 0.0239 0.0211</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.309971 -1.659122 -0.295749</min>
@@ -570,10 +590,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0437 0.0620 0.0225</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.406675 -0.855222 -0.279536</min>
@@ -628,6 +647,33 @@
           <extraPitchLimits>
             <back>-15 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_75mm_slpgr_m_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_slpgr_m_43>
+            <_75mm_slpprj_m_49>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_75mm_slpprj_m_49>
+            <_75mm_sgr_m_38>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_sgr_m_38>
+          </shots>
         </_75mm_kan_strv_74_R>
         <_105mm_kan_m_34>
           shared&#xD;
@@ -644,10 +690,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0479 0.0577 0.0338</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.406675 -0.843628 -0.279536</min>
@@ -709,6 +754,33 @@
           <extraPitchLimits>
             <back>-15 6 40</back>
           </extraPitchLimits>
+          <shots>
+            <_105mm_slpgr_m_43_1>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_slpgr_m_43_1>
+            <_105mm_slpprj_fm_49>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  7&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_slpprj_fm_49>
+            <_105mm_tung_sgr_m_34>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_tung_sgr_m_34>
+          </shots>
         </_105mm_kan_m_34>
       </guns>
       <emblemSlots>

@@ -25,9 +25,9 @@
     <backward>10</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.019</moving>
-    <still>0.038</still>
-    <firePenalty>0.057</firePenalty>
+    <moving>0.039</moving>
+    <still>0.058</still>
+    <firePenalty>0.077</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -60,8 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0254 0.0254 0.0254</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>87.329742</turret_01>
       </averageThickness>
@@ -243,8 +241,6 @@
   <turrets0>
     <Turret_1_ARL_44BP>
       <blitz>
-        <armorScale>0.0338 0.0268 0.0197</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.170119 -2.002360 -0.325504</min>
@@ -313,10 +309,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0239 0.0239 0.0239</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.334297 -1.324091 -0.274857</min>
@@ -371,6 +366,33 @@
             <back>-15 5 40</back>
           </extraPitchLimits>
           <aimingTime>2.7</aimingTime>
+          <shots>
+            <_105mm_Prf1940>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Prf1940>
+            <_105mm_FrtPrf1943>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_FrtPrf1943>
+            <_105mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_OE_mle_1924>
+          </shots>
         </_105mm_canon_13TR_mle45>
       </guns>
       <emblemSlots>

@@ -59,8 +59,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0197 0.0197 0.0197</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>121.902306</turret_01>
       </averageThickness>
@@ -344,8 +342,6 @@
   <turrets0>
     <Turret_Ho-Ri_type96>
       <blitz>
-        <armorScale>0.0704 0.0704 0.0704</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>0.0 0.0 0.0</min>
@@ -404,10 +400,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0648 0.0887 0.0648</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.475002 -1.334897 -0.437000</min>
@@ -462,6 +457,33 @@
           <invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
           <pitchLimits>-15 8</pitchLimits>
           <turretYawLimits>-13 13</turretYawLimits>
+          <shots>
+            <_105mm_AP_Type01>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_AP_Type01>
+            <_105mm_AP_Type02>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_AP_Type02>
+            <_105mm_HE_Type01>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_HE_Type01>
+          </shots>
         </_105mm_Gun_Shin>
         <_120mm_Gun_Type10>
           shared&#xD;
@@ -478,10 +500,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0493 0.1141 0.0493</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.475002 -1.333835 -0.437000</min>
@@ -546,6 +567,33 @@
           <invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
           <pitchLimits>-15 8</pitchLimits>
           <turretYawLimits>-13 13</turretYawLimits>
+          <shots>
+            <_120mm_AP_Type10>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_AP_Type10>
+            <_120mm_AP_Type11>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_120mm_AP_Type11>
+            <_120mm_HE_Type10>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_120mm_HE_Type10>
+          </shots>
         </_120mm_Gun_Type10>
       </guns>
       <emblemSlots>

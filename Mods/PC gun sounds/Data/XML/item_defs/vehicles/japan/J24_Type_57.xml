@@ -60,10 +60,8 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0089 0.0089 0.0089</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
-        <turret_01>174.620071</turret_01>
+        <turret_01>177.195221</turret_01>
       </averageThickness>
       <blitzPartName>hull</blitzPartName>
       <bbox>
@@ -97,7 +95,7 @@
       <collisionModel>vehicles/japan/J24_Type_57/collision/Hull.model</collisionModel>
     </hitTester>
     <armor>
-      <armor_1>116</armor_1>
+      <armor_1>124</armor_1>
       <armor_2>109</armor_2>
       <armor_3>79</armor_3>
       <armor_4>40</armor_4>
@@ -108,7 +106,7 @@
       <armor_9>50</armor_9>
       <armor_10>45</armor_10>
       <armor_11>90</armor_11>
-      <armor_12>70</armor_12>
+      <armor_12>80</armor_12>
       <armor_13>150</armor_13>
       <armor_14>10</armor_14>
       <armor_15>200</armor_15>
@@ -239,8 +237,6 @@
   <turrets0>
     <Turret_1_Type_57>
       <blitz>
-        <armorScale>0.0056 0.0146 0.0034</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.306844 -2.622097 -0.380620</min>
@@ -275,7 +271,7 @@
         <armor_7>90</armor_7>
         <armor_8>10</armor_8>
         <armor_9>120</armor_9>
-        <armor_10>60</armor_10>
+        <armor_10>80</armor_10>
         <armor_11>60</armor_11>
         <armor_12>50</armor_12>
         <armor_13>120</armor_13>
@@ -312,10 +308,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0179 0.0393 0.0179</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.418811 -1.075401 -0.321644</min>
@@ -369,7 +364,7 @@
           </armor>
           <shotDispersionRadius>0.42</shotDispersionRadius>
           <aimingTime>3.3</aimingTime>
-          <reloadTime>14.6</reloadTime>
+          <reloadTime>16</reloadTime>
           <shotDispersionFactors>
             <turretRotation>0.15</turretRotation>
             <afterShot>4</afterShot>
@@ -377,6 +372,33 @@
           </shotDispersionFactors>
           <invisibilityFactorAtShot>0.225</invisibilityFactorAtShot>
           <pitchLimits>-20 9</pitchLimits>
+          <shots>
+            <_127mm_AP_type89>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_127mm_AP_type89>
+            <_127mm_AP_type98>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_127mm_AP_type98>
+            <_127mm_HE_type89>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_127mm_HE_type89>
+          </shots>
         </_127mm_Gun_Type57_L50>
       </guns>
       <emblemSlots>

@@ -329,6 +329,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_01</blitzPartName>
@@ -385,9 +386,37 @@
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
           <pitchLimits>-30 8</pitchLimits>
           <emblemSlots/>
+          <shots>
+            <_105mm_PzGr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_PzGr39L>
+            <_105mm_Pzgr.40>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr.40>
+            <_105mm_Sprg_L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprg_L>
+          </shots>
         </_105mm_KwK45_L52>
         <_128mm_L50A>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -456,6 +485,33 @@
           <invisibilityFactorAtShot>0.162</invisibilityFactorAtShot>
           <pitchLimits>-30 8</pitchLimits>
           <emblemSlots/>
+          <shots>
+            <_128mm_PzGr39K>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_128mm_PzGr39K>
+            <_128mm_PzGr40K>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_128mm_PzGr40K>
+            <_128mm_SprG18>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_128mm_SprG18>
+          </shots>
         </_128mm_L50A>
       </guns>
       <emblemSlots>

@@ -606,6 +606,7 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
             <blitzPartName>gun_02</blitzPartName>
@@ -667,9 +668,37 @@
             </insigniaOnGun>
           </emblemSlots>
           <animateEmblemSlots>true</animateEmblemSlots>
+          <shots>
+            <_75mm_Prf1926>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_Prf1926>
+            <_75mm_FrtPrf1940>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  5&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_75mm_FrtPrf1940>
+            <_75mm_OE_mle_1915>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_75mm_OE_mle_1915>
+          </shots>
         </_75mm_Long_44_AC>
         <_90mm_canon_DCA_30_CA>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -755,9 +784,37 @@
           <camouflage>
             <tiling>1.12 1.12 0.000000 0.000000</tiling>
           </camouflage>
+          <shots>
+            <_90mm_Prf1941>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_Prf1941>
+            <_90mm_FrtPrf1944>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  6&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_FrtPrf1944>
+            <_90mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_OE_mle_1924>
+          </shots>
         </_90mm_canon_DCA_30_CA>
         <_105mm_AC_mle_1930S>
           shared&#xD;
+					&#xD;
 					&#xD;
 					&#xD;
 					&#xD;
@@ -829,6 +886,33 @@
           <camouflage>
             <tiling>1.18 1.18 0.000000 0.000000</tiling>
           </camouflage>
+          <shots>
+            <_105mm_Prf1940>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Prf1940>
+            <_105mm_FrtPrf1943>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_FrtPrf1943>
+            <_105mm_OE_mle_1924>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_OE_mle_1924>
+          </shots>
         </_105mm_AC_mle_1930S>
       </guns>
       <emblemSlots/>

@@ -26,9 +26,9 @@
     <backward>10</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.039</moving>
-    <still>0.078</still>
-    <firePenalty>0.117</firePenalty>
+    <moving>0.059</moving>
+    <still>0.098</still>
+    <firePenalty>0.137</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -61,8 +61,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0225 0.0437 0.0197</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>108.586151</turret_01>
       </averageThickness>
@@ -247,8 +245,6 @@
   <turrets0>
     <Turret_1_M6E2BP>
       <blitz>
-        <armorScale>0.0099 0.0099 0.0141</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.196704 -1.377990 -0.528435</min>
@@ -322,10 +318,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale/>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.201525 -0.921963 -0.180887</min>
@@ -362,6 +357,33 @@
           </extraPitchLimits>
           <turretYawLimits>-180 180</turretYawLimits>
           <emblemSlots/>
+          <shots>
+            <_90mm_AP_M77>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_AP_M77>
+            <_90mm_HVAP_M304>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_90mm_HVAP_M304>
+            <_90mm_HE_M71>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_90mm_HE_M71>
+          </shots>
         </_90mm_Gun_M3BP>
       </guns>
       <emblemSlots>

@@ -25,9 +25,9 @@
     <backward>12</backward>
   </speedLimits>
   <invisibility>
-    <moving>0.184</moving>
-    <still>0.245</still>
-    <firePenalty>0.368</firePenalty>
+    <moving>0.204</moving>
+    <still>0.266</still>
+    <firePenalty>0.388</firePenalty>
   </invisibility>
   <repairCost>0</repairCost>
   <crewXpFactor>1.0</crewXpFactor>
@@ -60,8 +60,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0028 0.0803 0.0648</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>125.262657</turret_01>
       </averageThickness>
@@ -237,8 +235,6 @@
   <turrets0>
     <Turret_1_Oth22_Sega_Vulcan>
       <blitz>
-        <armorScale>0.0324 0.0859 0.0493</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.216857 -2.131702 0.000013</min>
@@ -311,10 +307,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0577 0.0577 0.0577</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.702744 -1.010116 -0.390844</min>
@@ -359,6 +354,33 @@
           <extraPitchLimits>
             <back>-20 0 40</back>
           </extraPitchLimits>
+          <shots>
+            <_110mm_Pzgr-V>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_110mm_Pzgr-V>
+            <_110mm_Pzgr-VL>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_110mm_Pzgr-VL>
+            <_110mm_Sprgr-V>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_110mm_Sprgr-V>
+          </shots>
         </_110mm_KwK-V17>
       </guns>
       <emblemSlots>

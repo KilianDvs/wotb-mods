@@ -58,7 +58,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>1.0300 1.0300 1.0300</armorScale>
       <averageThickness>
         <turret_01>126.202492</turret_01>
         <turret_02>133.656433</turret_02>
@@ -352,7 +351,6 @@
   <turrets0>
     <Turret_1_E-50>
       <blitz>
-        <armorScale>1.0300 1.0300 1.0300</armorScale>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.234705 -1.320171 -0.346209</min>
@@ -425,10 +423,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0650 0.0859 0.0650</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_03</blitzPartName>
             <bbox>
               <min>-0.320034 -0.601962 -0.310447</min>
@@ -497,6 +494,33 @@
             <back>-20 0.9 25</back>
             <transition>5</transition>
           </extraPitchLimits>
+          <shots>
+            <_88mm_Pzgr39_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39_43>
+            <_88mm_Pzgr.40_43>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40_43>
+            <_88mm_Sprg.43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.43>
+          </shots>
         </_88mm_KwK_43_L71>
         <_88mm_KwK_L100>
           shared&#xD;
@@ -511,10 +535,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0650 0.0944 0.0650</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_09</blitzPartName>
             <bbox>
               <min>-0.320034 -0.601962 -0.310447</min>
@@ -571,6 +594,33 @@
             <back>-20 0.9 25</back>
             <transition>5</transition>
           </extraPitchLimits>
+          <shots>
+            <_88mm_Pzgr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39L>
+            <_88mm_Pzgr.40L>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40L>
+            <_88mm_Sprg.18L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.18L>
+          </shots>
         </_88mm_KwK_L100>
       </guns>
       <emblemSlots>
@@ -601,8 +651,6 @@
     </Turret_1_E-50>
     <Turret_2_E-50>
       <blitz>
-        <armorScale>0.0423 0.0268 0.0225</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_02</blitzPartName>
         <bbox>
           <min>-1.272506 -1.850707 -0.346209</min>
@@ -681,10 +729,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0592 0.0718 0.0423</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_06</blitzPartName>
             <bbox>
               <min>-0.320015 -0.663565 -0.310595</min>
@@ -741,6 +788,33 @@
             <back>-20 0.9 25</back>
             <transition>5</transition>
           </extraPitchLimits>
+          <shots>
+            <_88mm_Pzgr39_43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39_43>
+            <_88mm_Pzgr.40_43>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40_43>
+            <_88mm_Sprg.43>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.43>
+          </shots>
         </_88mm_KwK_43_L71>
         <_88mm_KwK_L100>
           shared&#xD;
@@ -756,10 +830,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0650 0.0930 0.0650</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_07</blitzPartName>
             <bbox>
               <min>-0.320015 -0.663565 -0.310595</min>
@@ -817,6 +890,33 @@
             <transition>5</transition>
           </extraPitchLimits>
           <fitsRatingBattle>true</fitsRatingBattle>
+          <shots>
+            <_88mm_Pzgr39L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Pzgr39L>
+            <_88mm_Pzgr.40L>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_88mm_Pzgr.40L>
+            <_88mm_Sprg.18L>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_88mm_Sprg.18L>
+          </shots>
         </_88mm_KwK_L100>
         <_105mm_KwK45_L52_ausf_B>
           shared&#xD;
@@ -832,10 +932,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0650 0.0803 0.0650</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_08</blitzPartName>
             <bbox>
               <min>-0.320015 -0.663565 -0.310595</min>
@@ -899,6 +998,33 @@
             <transition>5</transition>
           </extraPitchLimits>
           <invisibilityFactorAtShot>0.209</invisibilityFactorAtShot>
+          <shots>
+            <_105mm_PzGr39G>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_PzGr39G>
+            <_105mm_Pzgr.40G>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_105mm_Pzgr.40G>
+            <_105mm_Sprg.18G>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_105mm_Sprg.18G>
+          </shots>
         </_105mm_KwK45_L52_ausf_B>
       </guns>
       <emblemSlots>

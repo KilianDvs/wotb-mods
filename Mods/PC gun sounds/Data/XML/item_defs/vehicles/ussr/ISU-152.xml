@@ -57,8 +57,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0254 0.0521 0.0718</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>104.498901</turret_01>
       </averageThickness>
@@ -406,7 +404,6 @@
   <turrets0>
     <ISU-152_01>
       <blitz>
-        <armorScale>0.0000 0.0000 0.0000</armorScale>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>0.0 0.0 0.0</min>
@@ -469,10 +466,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0648 0.0972 0.0254</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.431963 -1.324098 -0.484709</min>
@@ -519,6 +515,33 @@
             <afterShot>4</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_152mm_53-G-530>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_152mm_53-G-530>
+            <_152mm_53BP540>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  11&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_152mm_53BP540>
+            <_152mm_53-OF-530>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_152mm_53-OF-530>
+          </shots>
         </_152mm_ML-20C>
         <_122mm_A-19>
           shared&#xD;
@@ -532,10 +555,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0380 0.0549 0.0408</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.431963 -1.322864 -0.484709</min>
@@ -583,6 +605,33 @@
             <afterShot>3</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_122mm_UBR-471>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UBR-471>
+            <_122mm_UBR-471P>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_UBR-471P>
+            <_122mm_UOF-471>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UOF-471>
+          </shots>
         </_122mm_A-19>
         <_122mm_D-25C_mod1944>
           shared&#xD;
@@ -596,10 +645,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0268 0.0507 0.0268</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_04</blitzPartName>
             <bbox>
               <min>-0.454660 -1.318365 -0.398986</min>
@@ -657,6 +705,33 @@
             <afterShot>3</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_122mm_3BM14>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_3BM14>
+            <_122mm_3VBK6>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  8&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_3VBK6>
+            <_122mm_UOF-471>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UOF-471>
+          </shots>
         </_122mm_D-25C_mod1944>
         <_122mm_BL-9S>
           shared&#xD;
@@ -669,10 +744,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0183 0.0606 0.0197</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_05</blitzPartName>
             <bbox>
               <min>-0.424102 -1.319545 -0.484524</min>
@@ -713,6 +787,33 @@
             <afterShot>3</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_122mm_UBR-471>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UBR-471>
+            <_122mm_UBR-471P>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_122mm_UBR-471P>
+            <_122mm_UOF-471>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_122mm_UOF-471>
+          </shots>
         </_122mm_BL-9S>
         <_152mm_BL-10>
           shared&#xD;
@@ -726,10 +827,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0197 0.0549 0.0169</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_06</blitzPartName>
             <bbox>
               <min>-0.424102 -1.319545 -0.484432</min>
@@ -770,6 +870,33 @@
             <afterShot>3.5</afterShot>
             <whileGunDamaged>2.0</whileGunDamaged>
           </shotDispersionFactors>
+          <shots>
+            <_152mm_UBR551>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_152mm_UBR551>
+            <_152mm_UBR551P>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  12&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_152mm_UBR551P>
+            <_152mm_53-OF-551>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_152mm_53-OF-551>
+          </shots>
         </_152mm_BL-10>
       </guns>
       <emblemSlots/>

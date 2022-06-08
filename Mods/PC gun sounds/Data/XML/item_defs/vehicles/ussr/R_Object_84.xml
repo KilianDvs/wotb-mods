@@ -58,8 +58,6 @@
   </horns>
   <hull>
     <blitz>
-      <armorScale>0.0014 0.0042 0.0070</armorScale>
-      <pushNormalsScale/>
       <averageThickness>
         <turret_01>137.302017</turret_01>
       </averageThickness>
@@ -339,8 +337,6 @@
   <turrets0>
     <Turret_1_R_Object_84>
       <blitz>
-        <armorScale>0.0254 0.0056 0.0028</armorScale>
-        <pushNormalsScale/>
         <blitzPartName>turret_01</blitzPartName>
         <bbox>
           <min>-1.210271 -1.217733 -0.323962</min>
@@ -417,10 +413,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0042 0.0099 0.0127</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_01</blitzPartName>
             <bbox>
               <min>-0.197628 -0.655862 -0.196096</min>
@@ -482,6 +477,33 @@
               <duration>20</duration>
             </shell>
           </improvedDetection>
+          <shots>
+            <_100mm_UBR-412>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UBR-412>
+            <_100mm_UBR-412P>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  9&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_100mm_UBR-412P>
+            <_100mm_UOF-412>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UOF-412>
+          </shots>
         </_100mm_D10T_obr_45>
         <_100mm_D54_obr_45>
           shared&#xD;
@@ -499,10 +521,9 @@
 					&#xD;
 					&#xD;
 					&#xD;
+					&#xD;
 				
           <blitz>
-            <armorScale>0.0042 0.0099 0.0127</armorScale>
-            <pushNormalsScale/>
             <blitzPartName>gun_02</blitzPartName>
             <bbox>
               <min>-0.197600 -0.655822 -0.196129</min>
@@ -564,6 +585,33 @@
               <duration>20</duration>
             </shell>
           </improvedDetection>
+          <shots>
+            <_100mm_UBR-412B>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UBR-412B>
+            <_100mm_3UBK4>
+              <shell>
+                shared&#xD;
+							
+                <price>
+                  10&#xD;
+								
+                  <gold/>
+                </price>
+              </shell>
+            </_100mm_3UBK4>
+            <_100mm_UOF-412B>
+              <shell>
+                shared&#xD;
+							
+                <price>0</price>
+              </shell>
+            </_100mm_UOF-412B>
+          </shots>
         </_100mm_D54_obr_45>
       </guns>
       <emblemSlots>

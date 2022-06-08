@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root>
-  <nextAvailableId>89</nextAvailableId>
+  <nextAvailableId>90</nextAvailableId>
   <ids>
     <_75mm_SA50>1</_75mm_SA50>
     <_47mm_SA35>3</_47mm_SA35>
@@ -57,6 +57,7 @@
     <_75mm_SA50BP_FR>85</_75mm_SA50BP_FR>
     <_90mm_F3_Ver2>86</_90mm_F3_Ver2>
     <_90mm_canon_DCA_45_Ver2>87</_90mm_canon_DCA_45_Ver2>
+    <_17pdr_OQF_AT_FR>88</_17pdr_OQF_AT_FR>
   </ids>
   <shared>
     <_13.2mm_Hotchkiss_mle._1930>
@@ -2950,5 +2951,61 @@
         </_75mm_OE_mle_1924>
       </shots>
     </_75mm_SA50BP_FR>
+    <_17pdr_OQF_AT_FR>
+      <userString>#france_vehicles:_17pdr_OQF_AT_FR</userString>
+      <shortUserString>#france_vehicles:_17pdr_OQF_AT_FR_short</shortUserString>
+      <description>#france_vehicles:_17pdr_OQF_AT_FR_descr</description>
+      <tags/>
+      <level>7</level>
+      <price>0</price>
+      <notInShop>true</notInShop>
+      <impulse>0.48</impulse>
+      <recoil>
+        <lodDist>MEDIUM</lodDist>
+        <amplitude>0.36</amplitude>
+        <backoffTime>0.1</backoffTime>
+        <returnTime>0.4</returnTime>
+      </recoil>
+      <effects>shot_main_mb</effects>
+      <pitchLimits>-15 7</pitchLimits>
+      <rotationSpeed>40.25</rotationSpeed>
+      <reloadTime>3.25714285714286</reloadTime>
+      <maxAmmo>70</maxAmmo>
+      <aimingTime>2.0</aimingTime>
+      <weight>826</weight>
+      <maxHealth>144</maxHealth>
+      <maxRegenHealth>72</maxRegenHealth>
+      <repairCost>0</repairCost>
+      <invisibilityFactorAtShot>0.180</invisibilityFactorAtShot>
+      <shotDispersionRadius>0.34</shotDispersionRadius>
+      <shotDispersionFactors>
+        <turretRotation>0.12</turretRotation>
+        <afterShot>3.5</afterShot>
+        <whileGunDamaged>2.0</whileGunDamaged>
+      </shotDispersionFactors>
+      <shots>
+        <_17pdr_AP_Mk3_FR>
+          <defaultPortion>0.8</defaultPortion>
+          <speed>884</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>171 161</piercingPower>
+        </_17pdr_AP_Mk3_FR>
+        <_17pdr_APC_Mk4_FR>
+          <defaultPortion>0.0</defaultPortion>
+          <speed>1105</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>239 218</piercingPower>
+        </_17pdr_APC_Mk4_FR>
+        <_17pdr_HE_Mk1_FR>
+          <defaultPortion>0.2</defaultPortion>
+          <speed>884</speed>
+          <gravity>9.81</gravity>
+          <maxDistance>720</maxDistance>
+          <piercingPower>38 38</piercingPower>
+        </_17pdr_HE_Mk1_FR>
+      </shots>
+    </_17pdr_OQF_AT_FR>
   </shared>
 </root>

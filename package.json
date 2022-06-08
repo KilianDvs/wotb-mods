@@ -1,6 +1,6 @@
 {
   "name": "wotb-mods",
-  "version": "8.9.0",
+  "version": "9.0.0",
   "description": "A CLI to install mods (including backups) for World of Tanks Blitz",
   "main": "src/index.js",
   "bin": {
